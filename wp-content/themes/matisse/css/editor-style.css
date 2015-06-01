@@ -1,0 +1,363 @@
+/*
+ Theme Name: Matisse
+ */
+/*
+ Used to style the TinyMCE editor.
+ */
+html .mceContentBody {
+	max-width: 620px;
+}
+p, ul, ol, table, input, textarea, dl, .gallery {
+	margin: 0 0 1em 0;
+}
+p {
+	text-indent: 0;
+	-webkit-hyphens: auto;
+	-moz-hyphens: auto;
+	-ms-hyphens: auto;
+	hyphens: auto;
+}
+h1, h2, h3, h4, h5, h6 {
+	line-height: 1.1;
+	margin: 0 0 0.5em;
+}
+h1 {
+	font-size: 22px;
+	font-size: 2.2 rem;
+	line-height: .91667;
+}
+
+h2 {
+	font-size: 20px;
+	font-size: 2.0 rem;
+	line-height: 1.375;
+}
+h3, h4 {
+	font-size: 18px;
+	font-size: 1.8 rem;
+	line-height: 1.57143;
+}
+
+h5, h6 {
+	font-size: 16px;
+	font-size: 1.6 rem;
+	line-height: 2;
+}
+
+a {
+	outline: none;
+	color: #dd3333;
+	text-decoration: none;
+}
+a:hover {
+	color: #777
+}
+a, input[type=submit], input[type=button], input[type=text], textarea {
+	-webkit-transition: all 0.2s ease-out;
+	-moz-transition: all 0.2s ease-out;
+	-ms-transition: all 0.2s ease-out;
+	-o-transition: all 0.2s ease-out;
+	transition: all 0.2s ease-out;
+}
+img {
+	border: 0;
+	-ms-interpolation-mode: bicubic;
+	height: auto;
+	max-width: 100%;
+	width: auto;
+}
+embed, iframe, object, video {
+	max-width: 100%;
+}
+del {
+	text-decoration: line-through;
+}
+ol, ul {
+	list-style: none
+}
+dt {
+	font-weight: bold;
+}
+ul, ol {
+	list-style: disc;
+	margin: 0 0 1em 2em;
+}
+ul ul {
+	list-style: circle;
+	margin: 0 0 0 1em;
+}
+ul ul ul {
+	list-style: square;
+}
+ol {
+	list-style: decimal
+}
+ol ol {
+	list-style: lower-alpha;
+	margin: 0 0 0 1.4em;
+}
+ol ol ol {
+	list-style: lower-roman
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote {
+	padding: 0 0 0 1.5em;
+	border-left: 4px solid #eee;
+	margin: 0 0 1em;
+}
+blockquote:before, blockquote:after, q:before, q:after {
+	content: '';
+}
+q, var, cite {
+	font-style: italic;
+}
+blockquote cite {
+	font-variant: small-caps;
+}
+address {
+	margin: 1em 0;
+	font-style: italic;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+	font-family: Consolas, "Courier New", Courier, monospace;
+	width: 100%;
+	margin: 0 0 1em;
+}
+thead th {
+	background: #efefef;
+}
+td, th {
+	padding: 4px 5px;
+	border: 1px solid #ddd;
+}
+pre {
+	font-family: Consolas, "Courier New", Courier, monospace;
+	color: #222;
+	background: #eee;
+	padding: 10px;
+	overflow: auto;
+	margin-bottom: 1em
+}
+code {
+	font-family: Consolas, "Courier New", Courier, monospace;
+	font-weight: normal;
+	font-style: normal;
+}
+sup, sub {
+	height: 0;
+	line-height: 1;
+	position: relative;
+	vertical-align: baseline;
+	font-size: 0.81em;
+}
+sup {
+	bottom: 1ex;
+}
+sub {
+	top: 0.5ex;
+}
+abbr {
+	cursor: help;
+}
+em, i {
+	font-style: italic
+}
+strong, b {
+	font-weight: bold;
+}
+big {
+	font-size: larger
+}
+abbr {
+	cursor: help;
+	text-decoration: underline;
+}
+acronym {
+	font-variant: small-caps
+}
+input, textarea {
+	background: #fefefe;
+	border: 3px solid #ddd;
+	padding: 5px 6px;
+}
+button, input[type="button"], input[type="reset"], input[type="submit"], #searchsubmit {
+	background: #f9ecb1; /* Old browsers */
+	background: -moz-linear-gradient(top,  #f9ecb1 0%, #fce2bd 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f9ecb1), color-stop(100%,#fce2bd)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #f9ecb1 0%,#fce2bd 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #f9ecb1 0%,#fce2bd 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #f9ecb1 0%,#fce2bd 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #f9ecb1 0%,#fce2bd 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f9ecb1', endColorstr='#fce2bd',GradientType=0 ); /* IE6-9 */
+	cursor: pointer;
+	border: 2px solid #ddd;
+}
+button:hover, button:focus, button:active, input[type="button"]:hover, input[type="button"]:focus, input[type="button"]:active, input[type="reset"]:hover, input[type="reset"]:focus, input[type="reset"]:active, input[type="submit"]:hover, input[type="submit"]:focus, input[type="submit"]:active, #searchsubmit:hover, #searchsubmit:active, #searchsubmit:fokus {
+	opacity: 0.8
+}
+::selection {
+	background-color: #55595c;
+	color: #fff;
+	text-shadow: 0 1px 0 #000;
+}
+::-moz-selection {
+	background-color: #55595c;
+	color: #fff;
+	text-shadow: 0 1px 0 #000;
+}
+.aligncenter {
+	clear: both;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+.alignnone {
+	clear: both;
+	margin: 1em 0
+}
+.alignright {
+	float: right;
+}
+.alignleft {
+	float: left;
+}
+img.alignright {
+	float: right;
+	margin: 0.4em 0 0.1em 0.9em
+}
+
+img.alignleft {
+	float: left;
+	margin: 0.4em 0.9em 0.1em 0
+}
+
+img.aligncenter {
+	clear: both;
+	display: block;
+	margin: 1em auto;
+}
+img.alignnone {
+	clear: both;
+	margin: 0;
+}
+.wpstats {
+	display: none;
+}
+.txt-right {
+	text-align: right;
+}
+.txt-center {
+	text-align: center;
+}
+.size-auto, .size-full, .size-large, .size-medium, .size-thumbnail {
+	max-width: 100%;
+	width: auto;
+	height: auto;
+}
+.gallery {
+	float: left;
+	width: 100%;
+}
+.gallery-item {
+	float: left;
+	margin: 0;
+}
+.gallery-item img {
+	width: auto;
+	max-width: 100%;
+	height: auto;
+	display: block;
+	margin: 0 auto;
+}
+.gallery-columns-1 .gallery-item {
+	width: 98%;
+	margin: 1%;
+}
+.gallery-columns-2 .gallery-item {
+	width: 48%;
+	margin: 1%;
+}
+.gallery-columns-3 .gallery-item {
+	width: 31%;
+	margin: 1%;
+}
+.gallery-columns-4 .gallery-item {
+	width: 23%;
+	margin: 1%;
+}
+.gallery-columns-5 .gallery-item {
+	width: 19%;
+	margin: 0.2%;
+}
+.gallery-columns-6 .gallery-item {
+	width: 16%;
+	margin: 0.3%;
+}
+.gallery-columns-7 .gallery-item {
+	width: 14%;
+	margin: 0.1%;
+}
+.gallery-columns-8 .gallery-item {
+	width: 12%;
+	margin: 0.1%;
+}
+.gallery-columns-9 .gallery-item {
+	width: 10%;
+	margin: 0.1%;
+}
+.gallery-columns-10 .gallery-item {
+	width: 8%;
+	margin: 0.1%;
+	padding: 1% 0;
+}
+
+.gallery-columns-5 .gallery-caption, .gallery-columns-6 .gallery-caption, .gallery-columns-7 .gallery-caption, .gallery-columns-8 .gallery-caption, .gallery-columns-9 .gallery-caption, .gallery-columns-10 .gallery-caption {
+	display: none;
+}
+.gallery-caption {
+	margin: 3px auto;
+	font-size: 0.88em;
+	display: block;
+	text-align: center;
+	font-style: italic;
+}
+.wp-caption, .wp-caption-text {
+	margin: 0 0 6px;
+	width: auto;
+	max-width: 100%;
+	height: auto;
+	font-size: 0.88em;
+}
+.wp-caption img {
+	margin: 0;
+	max-width: 100%;
+	height: auto;
+	width: auto;
+}
+.alignnone img {
+	display: inline !important;
+	float: none !important;
+}
+
+.wp-caption.alignright {
+	margin: 7px 1px 7px 10px;
+}
+.wp-caption.alignleft {
+	margin: 7px 10px 7px 1px;
+}
+.wp-caption.aligncenter {
+	margin: 1em auto;
+}
+.wp-caption.alignnone {
+	margin: 1em 1px;
+}
+.gallery br {
+	clear: both
+}
+.entry-caption {
+	margin: 0 10px;
+}

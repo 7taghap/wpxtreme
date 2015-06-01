@@ -1,0 +1,1003 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: matisse\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-12-02 17:34+0100\n"
+"PO-Revision-Date: 2014-12-02 17:34+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: sk_SK\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Generator: Poedit 1.6.5\n"
+"X-Poedit-SearchPath-0: E:\\www\\wordpress\\wp-content\\themes\\matisse\n"
+
+#: E:\www\wordpress\wp-content\themes\matisse/404.php:9
+msgid "Error 404 - Not Found"
+msgstr "Chyba 404 - nebola nájdená"
+
+#: E:\www\wordpress\wp-content\themes\matisse/404.php:11
+msgid ""
+"Apologies, but no results were found for the requested archive. Perhaps "
+"searching will help find a related post."
+msgstr ""
+"Ne cerem scuze, dar rezultatele nu au fost găsite la Arhiva solicitate. "
+"Probabil căutarea va ajuta să găsiţi un post legate."
+
+#: E:\www\wordpress\wp-content\themes\matisse/archive.php:9
+#, fuzzy, php-format
+msgid "Day: <span>%s</span>"
+msgstr "Denné Archív: <span>%s</span>"
+
+#: E:\www\wordpress\wp-content\themes\matisse/archive.php:11
+#, fuzzy, php-format
+msgid "Month: <span>%s</span>"
+msgstr "Mesačný Archív: <span>%s</span>"
+
+#: E:\www\wordpress\wp-content\themes\matisse/archive.php:13
+#, fuzzy, php-format
+msgid "Year: <span>%s</span>"
+msgstr "Ročné Archív: <span>%s</span>"
+
+#: E:\www\wordpress\wp-content\themes\matisse/archive.php:16
+#: E:\www\wordpress\wp-content\themes\matisse/archive.php:23
+#, fuzzy, php-format
+msgid "<span>%s</span>"
+msgstr "Príspevky tagged <span>%s</span>"
+
+#: E:\www\wordpress\wp-content\themes\matisse/archive.php:46
+msgid "Archives"
+msgstr "Archív"
+
+#: E:\www\wordpress\wp-content\themes\matisse/comments.php:5
+msgid ""
+"This post is password protected. Enter the password to view any comments."
+msgstr ""
+"Acest post este protejată prin parolă. Introduceţi parola pentru "
+"vizualizarea comentariilor."
+
+#: E:\www\wordpress\wp-content\themes\matisse/comments.php:40
+msgid "Comments are closed."
+msgstr "Komentáre sú uzavreté."
+
+#: E:\www\wordpress\wp-content\themes\matisse/content-gallery.php:12
+#: E:\www\wordpress\wp-content\themes\matisse/content-image.php:22
+#: E:\www\wordpress\wp-content\themes\matisse/content-link.php:8
+#: E:\www\wordpress\wp-content\themes\matisse/content.php:8
+#: E:\www\wordpress\wp-content\themes\matisse/loop-aside.php:8
+#: E:\www\wordpress\wp-content\themes\matisse/loop-status.php:14
+#: E:\www\wordpress\wp-content\themes\matisse/loop.php:4
+#: E:\www\wordpress\wp-content\themes\matisse/slide-posts-masonry-page.php:74
+msgid "0"
+msgstr "0"
+
+#: E:\www\wordpress\wp-content\themes\matisse/content-gallery.php:12
+#: E:\www\wordpress\wp-content\themes\matisse/content-image.php:22
+#: E:\www\wordpress\wp-content\themes\matisse/content-link.php:8
+#: E:\www\wordpress\wp-content\themes\matisse/content.php:8
+#: E:\www\wordpress\wp-content\themes\matisse/loop-aside.php:8
+#: E:\www\wordpress\wp-content\themes\matisse/loop-status.php:14
+#: E:\www\wordpress\wp-content\themes\matisse/loop.php:4
+#: E:\www\wordpress\wp-content\themes\matisse/slide-posts-masonry-page.php:74
+msgid "1"
+msgstr "1"
+
+#: E:\www\wordpress\wp-content\themes\matisse/content-gallery.php:12
+#: E:\www\wordpress\wp-content\themes\matisse/content-image.php:22
+#: E:\www\wordpress\wp-content\themes\matisse/content-link.php:8
+#: E:\www\wordpress\wp-content\themes\matisse/content.php:8
+#: E:\www\wordpress\wp-content\themes\matisse/loop-aside.php:8
+#: E:\www\wordpress\wp-content\themes\matisse/loop-status.php:14
+#: E:\www\wordpress\wp-content\themes\matisse/loop.php:4
+#: E:\www\wordpress\wp-content\themes\matisse/slide-posts-masonry-page.php:74
+msgid "%"
+msgstr "%"
+
+#: E:\www\wordpress\wp-content\themes\matisse/content-gallery.php:12
+#: E:\www\wordpress\wp-content\themes\matisse/content-image.php:22
+#: E:\www\wordpress\wp-content\themes\matisse/content-link.php:8
+#: E:\www\wordpress\wp-content\themes\matisse/content.php:8
+#: E:\www\wordpress\wp-content\themes\matisse/loop-aside.php:8
+#: E:\www\wordpress\wp-content\themes\matisse/loop-status.php:14
+#: E:\www\wordpress\wp-content\themes\matisse/loop.php:4
+#: E:\www\wordpress\wp-content\themes\matisse/slide-posts-masonry-page.php:74
+msgid "Comments are off for this post"
+msgstr "Komentáre sú vypnuté pre tento post"
+
+#: E:\www\wordpress\wp-content\themes\matisse/content-gallery.php:19
+#: E:\www\wordpress\wp-content\themes\matisse/content-image.php:30
+#: E:\www\wordpress\wp-content\themes\matisse/content-link.php:15
+#: E:\www\wordpress\wp-content\themes\matisse/content.php:19
+#: E:\www\wordpress\wp-content\themes\matisse/functions.php:193
+#: E:\www\wordpress\wp-content\themes\matisse/image.php:56
+msgid "Continue reading &rarr;"
+msgstr "Pokračovať v čítaní → "
+
+#: E:\www\wordpress\wp-content\themes\matisse/content-gallery.php:22
+#: E:\www\wordpress\wp-content\themes\matisse/content-image.php:33
+#: E:\www\wordpress\wp-content\themes\matisse/content-link.php:18
+#: E:\www\wordpress\wp-content\themes\matisse/content.php:22
+#: E:\www\wordpress\wp-content\themes\matisse/loop.php:22
+#: E:\www\wordpress\wp-content\themes\matisse/page.php:22
+#: E:\www\wordpress\wp-content\themes\matisse/sidebar-page.php:20
+#: E:\www\wordpress\wp-content\themes\matisse/slide-posts-masonry-page.php:98
+msgid "Pages:"
+msgstr "Stránky:"
+
+#: E:\www\wordpress\wp-content\themes\matisse/content-gallery.php:35
+#: E:\www\wordpress\wp-content\themes\matisse/content-image.php:44
+#: E:\www\wordpress\wp-content\themes\matisse/content-link.php:28
+#: E:\www\wordpress\wp-content\themes\matisse/content.php:34
+#, php-format
+msgid "About %s"
+msgstr "O %s"
+
+#: E:\www\wordpress\wp-content\themes\matisse/content-gallery.php:38
+#: E:\www\wordpress\wp-content\themes\matisse/content-image.php:47
+#: E:\www\wordpress\wp-content\themes\matisse/content-link.php:31
+#: E:\www\wordpress\wp-content\themes\matisse/content.php:37
+#, php-format
+msgid "View all posts by %s &rarr;"
+msgstr "Zobraziť všetky príspevky od %s → "
+
+#: E:\www\wordpress\wp-content\themes\matisse/footer.php:28
+msgid "http://wordpress.org/"
+msgstr "http://WordPress.org/"
+
+#: E:\www\wordpress\wp-content\themes\matisse/footer.php:28
+msgid ""
+"Powered by WordPress, state-of-the-art semantic personal publishing platform."
+msgstr ""
+"Powered by WordPress, stat-of-art semantică personale platforma publicare."
+
+#: E:\www\wordpress\wp-content\themes\matisse/footer.php:31
+msgid "Theme design by"
+msgstr "Téma design by"
+
+#: E:\www\wordpress\wp-content\themes\matisse/functions.php:24
+msgid "Primary Navigation"
+msgstr "Primárnu navigáciu"
+
+#: E:\www\wordpress\wp-content\themes\matisse/functions.php:30
+msgid "Matisse"
+msgstr "Matisse"
+
+#: E:\www\wordpress\wp-content\themes\matisse/functions.php:35
+msgid "Matisse 2"
+msgstr "Matisse 2"
+
+#: E:\www\wordpress\wp-content\themes\matisse/functions.php:40
+msgid "Matisse 3"
+msgstr "Matisse 3"
+
+#: E:\www\wordpress\wp-content\themes\matisse/functions.php:67
+msgid "Sidebar Widget Area"
+msgstr "Bočný panel Widget oblasť"
+
+#: E:\www\wordpress\wp-content\themes\matisse/functions.php:69
+msgid "The sidebar widget area"
+msgstr "Oblasti hlavičky widget "
+
+#: E:\www\wordpress\wp-content\themes\matisse/functions.php:77
+#: E:\www\wordpress\wp-content\themes\matisse/functions.php:87
+msgid "Footer Widget Area"
+msgstr "Päta Widget oblasti"
+
+#: E:\www\wordpress\wp-content\themes\matisse/functions.php:79
+msgid "The first footer widget area"
+msgstr "Prvá oblasť päty widget"
+
+#: E:\www\wordpress\wp-content\themes\matisse/functions.php:89
+msgid "The second footer widget area"
+msgstr "Druhá oblasť päty widget"
+
+#: E:\www\wordpress\wp-content\themes\matisse/functions.php:158
+msgid "MENU"
+msgstr "MENU"
+
+#: E:\www\wordpress\wp-content\themes\matisse/functions.php:200
+#, php-format
+msgid ""
+"<p> Posted on %4$s by <span class=\"author vcard\"><a class=\"url fn n\" "
+"href=\"%5$s\" title=\"%6$s\" rel=\"author\">%7$s </a></span> </p>"
+msgstr ""
+"<p> Posted on %4$s by <span class=\"author vcard\"><a class=\"url fn n\" "
+"href=\"%5$s\" title=\"%6$s\" rel=\"author\">%7$s </a></span> </p>"
+
+#: E:\www\wordpress\wp-content\themes\matisse/functions.php:202
+#, php-format
+msgid ""
+"<p> Posted on <a href=\"%1$s\" title=\"%2$s\" rel=\"bookmark\"><time "
+"datetime=\"%3$s\">%4$s</time></a> by <span class=\"author vcard\"><a class="
+"\"url fn n\" href=\"%5$s\" title=\"%6$s\" rel=\"author\">%7$s </a></span> </"
+"p>"
+msgstr ""
+"<p> Posted on <a href=\"%1$s\" title=\"%2$s\" rel=\"bookmark\"><time "
+"datetime=\"%3$s\">%4$s</time></a> by <span class=\"author vcard\"><a class="
+"\"url fn n\" href=\"%5$s\" title=\"%6$s\" rel=\"author\">%7$s </a></span> </"
+"p>"
+
+#: E:\www\wordpress\wp-content\themes\matisse/functions.php:218
+#: E:\www\wordpress\wp-content\themes\matisse/functions.php:219
+msgid ", "
+msgstr ", "
+
+#: E:\www\wordpress\wp-content\themes\matisse/functions.php:221
+#, php-format
+msgid "<p>This entry was posted in %1$s and tagged %2$s.</p>"
+msgstr "<p>Tento záznam bol zaslaný v %1$s a označili %2s.</p>"
+
+#: E:\www\wordpress\wp-content\themes\matisse/functions.php:224
+#, php-format
+msgid "<p>This entry was posted in %1$s.</p>"
+msgstr "<p>Tento záznam bol zaslaný v %1$ s. </p>"
+
+#: E:\www\wordpress\wp-content\themes\matisse/functions.php:345
+msgid "&laquo; Previous"
+msgstr "&laquo;  Predchádzajúci "
+
+#: E:\www\wordpress\wp-content\themes\matisse/functions.php:346
+msgid "Next &raquo;"
+msgstr "Next &rarr; "
+
+#: E:\www\wordpress\wp-content\themes\matisse/functions.php:380
+#, php-format
+msgid "Page %s"
+msgstr "Stránku %s"
+
+#: E:\www\wordpress\wp-content\themes\matisse/image.php:13
+msgid "&larr; Previous"
+msgstr "Predchádzajúci "
+
+#: E:\www\wordpress\wp-content\themes\matisse/image.php:16
+msgid "Next &rarr;"
+msgstr "Next &rarr;"
+
+#: E:\www\wordpress\wp-content\themes\matisse/image.php:27
+#, php-format
+msgid ""
+"<p>Published <time datetime=\"%1$s\">%2$s</time> in <a href=\"%3$s\" title="
+"\"Return to %4$s\" rel=\"gallery\">%5$s</a>.</p>"
+msgstr ""
+"<p>Published <time datetime=\"%1$s\">%2$s</time> in <a href=\"%3$s\" title="
+"\"Return to %4$s\" rel=\"gallery\">%5$s</a>.</p> "
+
+#: E:\www\wordpress\wp-content\themes\matisse/image.php:72
+#, php-format
+msgid "<li>Title: %s </li>"
+msgstr "<li>Názov: %s </li>"
+
+#: E:\www\wordpress\wp-content\themes\matisse/image.php:74
+#, php-format
+msgid "<li>Caption: %s </li>"
+msgstr "<li>Popis: %s </li>"
+
+#: E:\www\wordpress\wp-content\themes\matisse/image.php:76
+#, php-format
+msgid "<li>Copyright: %s </li>"
+msgstr "<li>Autorské práva: %s </li>"
+
+#: E:\www\wordpress\wp-content\themes\matisse/image.php:78
+#, php-format
+msgid "<li>Credit: %s </li>"
+msgstr "<li>Úver: %s </li>"
+
+#: E:\www\wordpress\wp-content\themes\matisse/image.php:80
+#, php-format
+msgid "<li>Camera: %s </li>"
+msgstr "<li>Fotoaparát: %s </li>"
+
+#: E:\www\wordpress\wp-content\themes\matisse/image.php:82
+#, php-format
+msgid "<li>Aperture: %s </li>"
+msgstr "<li>Clony: f/ %s </li>"
+
+#: E:\www\wordpress\wp-content\themes\matisse/image.php:84
+#, php-format
+msgid "<li>Focal Length: %s </li>"
+msgstr "<li>Ohnisková vzdialenosť:  %s </li>"
+
+#: E:\www\wordpress\wp-content\themes\matisse/image.php:86
+#, php-format
+msgid "<li>ISO: %s </li>"
+msgstr "<li>ISO:  %s </li>"
+
+#: E:\www\wordpress\wp-content\themes\matisse/image.php:88
+#, php-format
+msgid "<li>Shutter Speed: %s s.</li>"
+msgstr "<li>Rýchlosť uzávierky: %s </li>"
+
+#: E:\www\wordpress\wp-content\themes\matisse/image.php:90
+#, php-format
+msgid "<li>Full size is %s pixels</li>"
+msgstr "<li>Plnej veľkosti je %s pixelov </li>"
+
+#: E:\www\wordpress\wp-content\themes\matisse/image.php:90
+msgid "Link to full-size image"
+msgstr "Odkaz na full-obrázka"
+
+#: E:\www\wordpress\wp-content\themes\matisse/image.php:93
+msgid "Edit"
+msgstr "Upraviť"
+
+#: E:\www\wordpress\wp-content\themes\matisse/inc/customizer_register.php:12
+msgid "Link Color"
+msgstr "Farba prepojenia"
+
+#: E:\www\wordpress\wp-content\themes\matisse/inc/customizer_register.php:25
+msgid "Logo"
+msgstr "Logo"
+
+#: E:\www\wordpress\wp-content\themes\matisse/inc/customizer_register.php:34
+msgid "Fonts"
+msgstr "Písma"
+
+#: E:\www\wordpress\wp-content\themes\matisse/inc/customizer_register.php:48
+msgid "Select Text Font:"
+msgstr "Vyberte písmo:"
+
+#: E:\www\wordpress\wp-content\themes\matisse/inc/customizer_register.php:67
+msgid "Select Header Font:"
+msgstr "Vyberte hlavičku písma:"
+
+#: E:\www\wordpress\wp-content\themes\matisse/inc/customizer_register.php:104
+msgid "Add language:"
+msgstr "Zdrojovom jazyku: "
+
+#: E:\www\wordpress\wp-content\themes\matisse/loop-aside.php:3
+#: E:\www\wordpress\wp-content\themes\matisse/loop-link.php:7
+#: E:\www\wordpress\wp-content\themes\matisse/loop-quote.php:3
+#: E:\www\wordpress\wp-content\themes\matisse/loop-search.php:7
+#: E:\www\wordpress\wp-content\themes\matisse/loop-status.php:8
+#: E:\www\wordpress\wp-content\themes\matisse/loop.php:19
+#: E:\www\wordpress\wp-content\themes\matisse/page.php:20
+#: E:\www\wordpress\wp-content\themes\matisse/sidebar-page.php:19
+#: E:\www\wordpress\wp-content\themes\matisse/slide-posts-masonry-page.php:88
+#: E:\www\wordpress\wp-content\themes\matisse/slide-posts-masonry-page.php:90
+msgid "<span class=\"link_more\">Continue reading &rarr;</span>"
+msgstr "<span class=\"link_more\">Jatka lukemista→</span> "
+
+#: E:\www\wordpress\wp-content\themes\matisse/loop-aside.php:12
+#: E:\www\wordpress\wp-content\themes\matisse/loop-link.php:9
+#: E:\www\wordpress\wp-content\themes\matisse/loop-quote.php:7
+#: E:\www\wordpress\wp-content\themes\matisse/loop-status.php:18
+#: E:\www\wordpress\wp-content\themes\matisse/loop.php:24
+#: E:\www\wordpress\wp-content\themes\matisse/page.php:23
+#: E:\www\wordpress\wp-content\themes\matisse/sidebar-page.php:21
+#: E:\www\wordpress\wp-content\themes\matisse/slide-posts-masonry-page.php:100
+msgid "Edit This"
+msgstr "Upraviť tento"
+
+#: E:\www\wordpress\wp-content\themes\matisse/loop-none.php:3
+msgid "Nothing Found"
+msgstr "Nebol nájdený "
+
+#: E:\www\wordpress\wp-content\themes\matisse/loop-none.php:6
+msgid ""
+"Sorry, but nothing matched your search criteria. Please try again with some "
+"different keywords."
+msgstr ""
+"Sorry, but nothing matched your search criteria. Please try again with some "
+"different keywords."
+
+#: E:\www\wordpress\wp-content\themes\matisse/loop-search.php:3
+#: E:\www\wordpress\wp-content\themes\matisse/loop.php:6
+#: E:\www\wordpress\wp-content\themes\matisse/slide-page.php:37
+#: E:\www\wordpress\wp-content\themes\matisse/slide-page.php:42
+#: E:\www\wordpress\wp-content\themes\matisse/slide-posts-masonry-page.php:35
+#: E:\www\wordpress\wp-content\themes\matisse/slide-posts-masonry-page.php:40
+#: E:\www\wordpress\wp-content\themes\matisse/slide-posts-masonry-page.php:77
+#: E:\www\wordpress\wp-content\themes\matisse/slide-posts-masonry-page.php:94
+#: E:\www\wordpress\wp-content\themes\matisse/slide-posts-page.php:35
+#: E:\www\wordpress\wp-content\themes\matisse/slide-posts-page.php:40
+#, php-format
+msgid "Permanent Link to %s"
+msgstr "Trvalý odkaz na %s"
+
+#: E:\www\wordpress\wp-content\themes\matisse/search.php:8
+#, php-format
+msgid "Search Results for: %s"
+msgstr "Výsledky hľadania pre: %s"
+
+#: E:\www\wordpress\wp-content\themes\matisse/slide-posts-masonry-page.php:112
+#, fuzzy
+msgid "View all posts"
+msgstr "Zobraziť všetky príspevky od %s → "
+
+#: E:\www\wordpress\wp-content\themes\matisse/slide-posts-masonry-page.php:112
+msgid "View all"
+msgstr "View all"
+
+#~ msgid "Categotry Archives: <span>%s</span>"
+#~ msgstr "Kategória Archív: <span>%s</span> "
+
+#~ msgid "Tag Archives: <span>%s</span>"
+#~ msgstr "Tag Archív: <span>%s</span>"
+
+#~ msgid "Matisse 4"
+#~ msgstr "Matisse 4"
+
+#~ msgid "Customize"
+#~ msgstr "Prispôsobiť"
+
+#~ msgid "Post Format options"
+#~ msgstr "Príspevok možnosti formátovania"
+
+#~ msgid "Matisse page options"
+#~ msgstr "Matisse str├ínke"
+
+#~ msgid "Featured"
+#~ msgstr "Najlepšie"
+
+#~ msgid "This is a featured post"
+#~ msgstr "Ide o Odporúčané príspevok"
+
+#~ msgid ""
+#~ "Check this to feature the post in the highlights section on the homepage."
+#~ msgstr ""
+#~ "Verificaţi pentru a caracteristică post în secţiunea evidenţiază pe "
+#~ "pagina de start."
+
+#~ msgid "Post format - Link"
+#~ msgstr "Príspevok formát - odkaz"
+
+#~ msgid "Paste link"
+#~ msgstr "Prilepiť prepojenie"
+
+#~ msgid "Post format - Quote - Author"
+#~ msgstr "Príspevok formát - citát - autor"
+
+#~ msgid ""
+#~ "If you choose the format of the post - quotation - and you want to add "
+#~ "the author you must write his name."
+#~ msgstr ""
+#~ "Dacă alegeţi formatul de la post - citate - şi doriţi să adăugaţi autorul "
+#~ "trebuie să scrieţi numele lui."
+
+#~ msgid "Post format - Quote - Link"
+#~ msgstr "Post formát - citát - odkaz"
+
+#~ msgid ""
+#~ "Past the link into the source of quotation. The author of the quotation "
+#~ "will be the link to the source, to make the link available fill in \\"
+#~ "\"the Author quotation\\\" field."
+#~ msgstr ""
+#~ "Ohi linkin lähde lainaus.Kirjoittaja tarjous on linkki lähde, jotta "
+#~ "yhteys käytettävissä täyttämään \\\"Kirjailija lainaus \\\" kenttään."
+
+#~ msgid "%s"
+#~ msgstr "%s"
+
+#~ msgid "Response to <strong>%1$s</strong>"
+#~ msgstr "Reakcia na <strong>%1$s</strong>"
+
+#~ msgid "The sidebar widget area, full width"
+#~ msgstr "Oblasti sidebar widget, celú šírku"
+
+#~ msgid "The sidebar widget area, left side"
+#~ msgstr "Oblasti sidebar widget, ľavá strana"
+
+#~ msgid "The sidebar widget area, right side"
+#~ msgstr "Oblasti sidebar widget, pravej strane"
+
+#~ msgid "Image {current} of {total}"
+#~ msgstr "Obraz {prúd} {celkom}"
+
+#~ msgid "Previous"
+#~ msgstr "Predchádzajúci"
+
+#~ msgid "Next"
+#~ msgstr "Ďalší"
+
+#~ msgid "Pingback:"
+#~ msgstr "Pingback:"
+
+#~ msgid "(Edit)"
+#~ msgstr "(Upraviť)"
+
+#~ msgid "Post author"
+#~ msgstr "Post author"
+
+#~ msgid "%1$s at %2$s"
+#~ msgstr "%1$s at %2$s"
+
+#~ msgid "Reply <span>&darr;</span>"
+#~ msgstr "Reply <span>&darr;</span>"
+
+#~ msgid "Your comment is awaiting moderation."
+#~ msgstr "Váš komentár čaká moderovanie."
+
+#~ msgid "Gallery"
+#~ msgstr "Galéria"
+
+#~ msgid "Select Lightbox Theme:"
+#~ msgstr "Vyberte tému Lightbox:"
+
+#~ msgid "Name:"
+#~ msgstr "meno:"
+
+#~ msgid "Link to your image(80x80px):"
+#~ msgstr "Odkaz na váš image(80x80px):"
+
+#~ msgid "Description:"
+#~ msgstr "Popis/kontrol:"
+
+#~ msgid "Title:"
+#~ msgstr "Názov:"
+
+#~ msgid "\"Flickr\"- ID. <a href=\"%s\" target=\"_blank\">idgettr.com</a>"
+#~ msgstr "\"Flickr\"- ID. <a href=\"%s\" target=\"_blank\">idgettr.com</a>"
+
+#~ msgid "http://idgettr.com/"
+#~ msgstr "http://idgettr.com/"
+
+#~ msgid "Number of photo to display:"
+#~ msgstr "Počet fotografií na zobrazenie:"
+
+#~ msgid "Links"
+#~ msgstr "Odkazy"
+
+#~ msgid "Image Upload (max width 280px)"
+#~ msgstr "Image Upload (max šírka 280px)"
+
+#~ msgid "Aside"
+#~ msgstr "Stranou"
+
+#~ msgid "Images"
+#~ msgstr "Obrázky"
+
+#~ msgid "Blog Archives"
+#~ msgstr "Blog archívu"
+
+#~ msgid "Return to %s"
+#~ msgstr "Vrátiť sa do %s"
+
+#~ msgid "<span class=\"meta-nav\">←</span> %s"
+#~ msgstr "<span class=\"meta-nav\">←</span> %s"
+
+#~ msgid "<li><span class=\"%1$s\">Published</span> %2$s"
+#~ msgstr "<li><span class=\"%1$s\">Published</span> %2$s"
+
+#~ msgid "Author Archives: %s"
+#~ msgstr "Autor Archív: %s"
+
+#~ msgid "1 "
+#~ msgstr "1 "
+
+#~ msgid "% "
+#~ msgstr "% "
+
+#~ msgid ""
+#~ "This <a href=\"%3$s\" title=\"Permalink to %4$s\" rel=\"bookmark\">entry</"
+#~ "a> was posted in %1$s and tagged %2$s. %7$s"
+#~ msgstr ""
+#~ "Tämä<a href=\"%3$s\" title=\"Permalink to %4$s\" rel=\"bookmark\">entry</"
+#~ "a> was posted in %1$s and tagged %2$s. %7$s"
+
+#~ msgid ""
+#~ "This <a href=\"%3$s\" title=\"Permalink to %4$s\" rel=\"bookmark\">entry</"
+#~ "a> was posted in %1$s. %7$s"
+#~ msgstr ""
+#~ "Tämä<a href=\"%3$s\" title=\"Permalink to %4$s\" rel=\"bookmark\">entry</"
+#~ "a> was posted in %1$s. %7$s"
+
+#~ msgid ""
+#~ "This <a href=\"%3$s\" title=\"Permalink to %4$s\" rel=\"bookmark\">entry</"
+#~ "a> was posted by <a href=\"%6$s\">%5$s</a>. %7$s"
+#~ msgstr ""
+#~ "Tämä <a href=\"%3$s\" title=\"Permalink to %4$s\" rel=\"bookmark\">entry</"
+#~ "a> was posted by <a href=\"%6$s\">%5$s</a>. %7$s"
+
+#~ msgid "Social"
+#~ msgstr "Sociálne"
+
+#~ msgid "Twitter URL"
+#~ msgstr "Twitter URL"
+
+#~ msgid "Facebook URL"
+#~ msgstr "Facebook URL"
+
+#~ msgid "Google plus URL"
+#~ msgstr "Google plus URL"
+
+#~ msgid "<li id=\"matisse_w\"><a href=\"%1$s\" title=\"%2$s\">%2$s</a></li>"
+#~ msgstr "<li id=\"matisse_w\"><a href=\"%1$s\" title=\"%2$s\">%2$s</a></li>"
+
+#~ msgid "Website"
+#~ msgstr "Webové stránky"
+
+#~ msgid "<li><a href=\"%1$s\" title=\"%2$s\">%2$s</a></li>"
+#~ msgstr "<li><a href=\"%1$s\" title=\"%2$s\">%2$s</a></li>"
+
+#~ msgid "Twitter"
+#~ msgstr "Twitter"
+
+#~ msgid "<li id=\"matisse_f\"><a href=\"%1$s\" title=\"%2$s\">%2$s</a></li>"
+#~ msgstr "<li id=\"matisse_f\"><a href=\"%1$s\" title=\"%2$s\">%2$s</a></li>"
+
+#~ msgid "Facebook"
+#~ msgstr "Facebook"
+
+#~ msgid "<li id=\"matisse_g\"><a href=\"%1$s\" title=\"%2$s\">%2$s</a></li>"
+#~ msgstr "<li id=\"matisse_g\"><a href=\"%1$s\" title=\"%2$s\">%2$s</a></li>"
+
+#~ msgid "Google plus"
+#~ msgstr "Google plus"
+
+#~ msgid "%s <span class=\"says\">says:</span>"
+#~ msgstr "%s <span class=\"says\">says:</span>"
+
+#~ msgid "Sorry, no posts matched your criteria."
+#~ msgstr "Ospravedlňujeme sa, váš kritériám nevyhovujú žiadne príspevky."
+
+#~ msgid "Select Text Size:"
+#~ msgstr "Vyberte veľkosť textu:"
+
+#~ msgid "(more...)"
+#~ msgstr "(viac...)"
+
+#~ msgid "Theme Options"
+#~ msgstr "Téma voľby"
+
+#~ msgid "Matisse Theme Options"
+#~ msgstr "Matisse tému možnosti"
+
+#~ msgid "Save Changes"
+#~ msgstr "Uložiť zmeny"
+
+#~ msgid "General Settings"
+#~ msgstr "Všeobecné nastavenia"
+
+#~ msgid "Color links"
+#~ msgstr "Farba Odkazy"
+
+#~ msgid "The general section."
+#~ msgstr "Všeobecnú časť."
+
+#~ msgid "Default color: %s"
+#~ msgstr "Predvolená farba: %s"
+
+#~ msgid "<a href=\"%s\" target=\"_blank\"><br />Upload your logo</a>"
+#~ msgstr "> < br / > nahrať vaše logo</a>"
+
+#~ msgid ""
+#~ "(max 360px x 120px) using WordPress Media Library and insert its URL here"
+#~ msgstr ""
+#~ "(max 360px x 120px) folosind biblioteca Media WordPress şi inseraţi URL-"
+#~ "ul său aici"
+
+#~ msgid "User:"
+#~ msgstr "Užívateľ:"
+
+#~ msgid "Number of Tweets to display:"
+#~ msgstr "Počet Tweets na zobrazenie:"
+
+#~ msgid "http://blankcanvas.eu/"
+#~ msgstr "http://blankcanvas.eu/"
+
+#~ msgid "Continue reading <span class=\"meta-nav\">→</span>"
+#~ msgstr ">→</span>"
+
+#~ msgid "Categories"
+#~ msgstr "Kategórie"
+
+#~ msgid "Tags"
+#~ msgstr "Tagy"
+
+#~ msgid "Matisse post options"
+#~ msgstr "Matisse post options"
+
+#~ msgid "http://tommek.eu"
+#~ msgstr "http://tommek.eu"
+
+#~ msgid "Image"
+#~ msgstr "Obrázok"
+
+#~ msgid "Leave a comment"
+#~ msgstr "Zanechať komentár"
+
+#~ msgid "1 Comment"
+#~ msgstr "1 Komentár"
+
+#~ msgid "% Comments"
+#~ msgstr "% Komentáre"
+
+#~ msgid "Matisse 5"
+#~ msgstr "Matisse 5"
+
+#~ msgid "Popular Tags"
+#~ msgstr "Populárne Tagy"
+
+#~ msgid "Second Footer Widget Area"
+#~ msgstr "Druhá oblasť päty Widget"
+
+#~ msgid "Custom logo url:"
+#~ msgstr "Vlastné logo url:"
+
+#~ msgid "Slide"
+#~ msgstr "Snímka"
+
+#~ msgid ""
+#~ "Turn on the \"lightbox\" effect to your photos (Gallery, Image with the "
+#~ "signature)"
+#~ msgstr ""
+#~ "Turn on the \"lightbox\" effect to your photos (Gallery, Image with the "
+#~ "signature)"
+
+#~ msgid "Lightbox"
+#~ msgstr "Lightbox"
+
+#~ msgid "\" target=\"_blank\">idgettr.com</a>"
+#~ msgstr "> idgettr.com</a>"
+
+#~ msgid "This entry was posted by <a href=\"%3$s\">%5$s</a>. %5$s"
+#~ msgstr ">%5$s</a>. %5$ s"
+
+#~ msgid "This gallery contains <a %1$s>%2$s photos</a>."
+#~ msgstr "Táto galéria obsahuje <a %1$s> %2$s fotografiou</a>."
+
+#~ msgid ""
+#~ "This <a href=\"%3$s\" title=\"Permalink to %4$s\" rel=\"bookmark\">entry</"
+#~ "a> was posted in %1$s and tagged %2$s by <a href=\"%6$s\">%5$s</a>."
+#~ msgstr ""
+#~ "Ten <a href=\"%3$s\" title=\"Permalink to %4$s\" rel=\"bookmark\">wpis</"
+#~ "a> został opublikowany w %1$s i oznaczony jako %2$s przez <a href=\"%6$s"
+#~ "\">%5$s</a>."
+
+#~ msgid ""
+#~ "This <a href=\"%3$s\" title=\"Permalink to %4$s\" rel=\"bookmark\">entry</"
+#~ "a> was posted in %1$s by <a href=\"%6$s\">%5$s</a>."
+#~ msgstr ""
+#~ "Ten <a href=\"%3$s\" title=\"Permalink to %4$s\" rel=\"bookmark\">wpis</"
+#~ "a>  został opublikowany w %1$s przez <a href=\"%6$s\">%5$s</a>."
+
+#~ msgid "Options saved"
+#~ msgstr "Nastavenia uložené"
+
+#~ msgid ""
+#~ "Enter Facebook  account name, <br />for example(http://www.facebook.com/?"
+#~ "ref=logo#!/<strong>mazurtomek</strong>)"
+#~ msgstr ""
+#~ "Wprowadż nazwę konta na Facebook, <br /> np (http://www.facebook.com/?"
+#~ "ref=logo#!/<strong>mazurtomek</strong>)"
+
+#~ msgid "LastFM"
+#~ msgstr "LastFM"
+
+#~ msgid ""
+#~ "Enter LastFM  account name, <br />for example(http://www.lastfm.pl/user/"
+#~ "<strong>tommek</strong>)"
+#~ msgstr ""
+#~ "Wprowadż nazwę konta na Last FM, <br />np (http://www.lastfm.pl/user/"
+#~ "<strong>tommek</strong>)"
+
+#~ msgid "YouTube"
+#~ msgstr "YouTube"
+
+#~ msgid ""
+#~ "Enter YouTube  account name,<br /> for example(http://www.youtube.com/"
+#~ "user/<strong>tommek1977</strong>)"
+#~ msgstr ""
+#~ "Wprowadż nazwę konta na YouTube,<br /> np (http://www.youtube.com/user/"
+#~ "<strong>tommek1977</strong>)"
+
+#~ msgid "Save Options"
+#~ msgstr "Ukladanie – možnosti"
+
+#~ msgid ""
+#~ "This entry was posted in %1$s and tagged %2$s by <a href=\"%6$s\">%5$s</"
+#~ "a>. Bookmark the <a href=\"%3$s\" title=\"Permalink to %4$s\" rel="
+#~ "\"bookmark\">permalink</a>."
+#~ msgstr ""
+#~ "Ten wpis został opublikowany w %1$s i oznaczony jako %2$s przez <a href="
+#~ "\"%6$s\">%5$s</a>. Adres <a href=\"%3$s\" title=\"Permalink to %4$s\" rel="
+#~ "\"bookmark\">wpisu</a>."
+
+#~ msgid ""
+#~ "This entry was posted in %1$s by <a href=\"%6$s\">%5$s</a>. Bookmark the "
+#~ "<a href=\"%3$s\" title=\"Permalink to %4$s\" rel=\"bookmark\">permalink</"
+#~ "a>."
+#~ msgstr ""
+#~ "Ten wpis został opublikowany w  %1$s przez <a href=\"%6$s\">%5$s</a>. "
+#~ "Bookmark the <a href=\"%3$s\" title=\"Permalink to %4$s\" rel=\"bookmark"
+#~ "\">permalink</a>."
+
+#~ msgid ""
+#~ "This entry was posted by <a href=\"%6$s\">%5$s</a>. Bookmark the <a href="
+#~ "\"%3$s\" title=\"Permalink to %4$s\" rel=\"bookmark\">permalink</a>."
+#~ msgstr ""
+#~ "Ten wpis został opublikowany przez <a href=\"%6$s\">%5$s</a>. Bookmark "
+#~ "the <a href=\"%3$s\" title=\"Permalink to %4$s\" rel=\"bookmark"
+#~ "\">permalink</a>."
+
+#~ msgid "Syndicate this site using RSS"
+#~ msgstr "Syndicate tomto webe pomocou RSS"
+
+#~ msgid "<abbr title=\"Really Simple Syndication\">RSS</abbr>"
+#~ msgstr "> RSS</abbr>"
+
+#~ msgid "The latest comments to all posts in RSS"
+#~ msgstr "Najnovšie komentáre na všetky príspevky v RSS"
+
+#~ msgid "Comments <abbr title=\"Really Simple Syndication\">RSS</abbr>"
+#~ msgstr "> RSS</abbr>"
+
+#~ msgid "Third Footer Widget Area"
+#~ msgstr "Treťou oblasťou Widget päty"
+
+#~ msgid "The third footer widget area"
+#~ msgstr "Treťou oblasťou widget päty"
+
+#, fuzzy
+#~ msgid " %1$s, Author: %2$s, "
+#~ msgstr " %1$ s, autor: %2$s, "
+
+#~ msgid "← Older posts"
+#~ msgstr "← Staršie príspevky"
+
+#~ msgid "<span class=\"meta-nav\">←</span> Older Comments"
+#~ msgstr "> ←</span> staršie komentáre"
+
+#~ msgid "Header Widget Area"
+#~ msgstr "Hlavička Widget"
+
+#~ msgid "Category Archives"
+#~ msgstr "Kategória Archív"
+
+#~ msgid "Tag Archives"
+#~ msgstr "Tag Archives"
+
+#~ msgid "HTTP 404: Not Found"
+#~ msgstr "HTTP 404: Nebol nájdený"
+
+#~ msgid "Tags:"
+#~ msgstr "Tagy:"
+
+#~ msgid "More Gallery"
+#~ msgstr "Galéria viac"
+
+#~ msgid "More Images"
+#~ msgstr "Viac obrázkov"
+
+#~ msgid "Search Results for: <span>%s</span>"
+#~ msgstr "Výsledky hľadania pre: <span>%s</span>"
+
+#~ msgid "Subscribe Rss"
+#~ msgstr "Prihlásiť Rss"
+
+#~ msgid "Facebook profil"
+#~ msgstr "Facebook profil"
+
+#~ msgid "YouTube profil"
+#~ msgstr "YouTube profil"
+
+#~ msgid "Recent Posts"
+#~ msgstr "Posledné príspevky"
+
+#~ msgid "Author"
+#~ msgstr "Autor"
+
+#~ msgid "Enter Google Analitics code"
+#~ msgstr "Zadajte kód Google Analitics"
+
+#~ msgid "One Response to %2$s"
+#~ msgstr "Jedna reakcia na %2$s"
+
+#~ msgid "Comments (1)"
+#~ msgstr "Komentáre (1)"
+
+#~ msgid "Comments (%)"
+#~ msgstr "Komentáre (%)"
+
+#~ msgid "Flickr gallery"
+#~ msgstr "Flickr galérie"
+
+#~ msgid "A widget to enable people to follow you on Twitter"
+#~ msgstr "Widget pre umožniť ľuďom, aby za vami na rozechvění"
+
+#, fuzzy
+#~ msgid "Stock number:"
+#~ msgstr "Skladové číslo:"
+
+#, fuzzy
+#~ msgid "Your photo (80x80px):"
+#~ msgstr "Vaše fotografie (80x80px):"
+
+#~ msgid "Linkedin profil"
+#~ msgstr "LinkedIn profil"
+
+#~ msgid "Enter Facebook  account name"
+#~ msgstr "Zadajte názov účtu Facebook"
+
+#~ msgid "Enter LastFM  account name"
+#~ msgstr "Zadajte názov účtu LastFM"
+
+#~ msgid " Enter Linkedin  account name"
+#~ msgstr " Zadajte názov účtu Linkedin"
+
+#~ msgid "Enter YouTube  account name"
+#~ msgstr "Zadajte názov účtu YouTube"
+
+#, fuzzy
+#~ msgid "Put your full twitter address here"
+#~ msgstr "Dať svoju plnú twitter adresu tu"
+
+#, fuzzy
+#~ msgid "Twitt number:"
+#~ msgstr "Twitty číslo:"
+
+#~ msgid "E-mail"
+#~ msgstr "E-mail"
+
+#~ msgid "LastFM name"
+#~ msgstr "Názov LastFM"
+
+#, fuzzy
+#~ msgid "Number of post(max10):"
+#~ msgstr "Počet post(max10):"
+
+#~ msgid "Sidebar top"
+#~ msgstr "Sidebar top"
+
+#~ msgid "Sidebar bottom"
+#~ msgstr "Sidebar dolnom"
+
+#~ msgid "Typo-o-Graphy Options"
+#~ msgstr "Typo-o-pornografia možnosti"
+
+#~ msgid "<strong>Facebook</strong>"
+#~ msgstr "<strong>Facebook</strong>"
+
+#~ msgid "<strong>Twitter</strong>"
+#~ msgstr "<strong>Twitter</strong>"
+
+#~ msgid "<strong>Flickr</strong>"
+#~ msgstr "<strong>Flickr</strong>"
+
+#~ msgid "<strong>Linkedin</strong>"
+#~ msgstr "<strong>LinkedIn</strong>"
+
+#~ msgid "<strong>You Tube</strong>"
+#~ msgstr "<strong>You Tube</strong>"
+
+#~ msgid "<strong>Name</strong>"
+#~ msgstr "<strong>Názov</strong>"
+
+#~ msgid "Your name."
+#~ msgstr "vaše meno."
+
+#~ msgid "<strong>E-mail</strong>"
+#~ msgstr "<strong>E-mail</strong>"
+
+#~ msgid "Your e-mail."
+#~ msgstr "Váš e-mail."
+
+#~ msgid "<strong>Photo</strong>"
+#~ msgstr "<strong>Foto</strong>"
+
+#~ msgid "<strong>Description</strong>"
+#~ msgstr "<strong>Popis</strong>"
+
+#~ msgid "Past your google analitic code."
+#~ msgstr "Minulosti svoj google analitic kód."
+
+#~ msgid "Update Options »"
+#~ msgstr "Update Options»"
+
+#~ msgid "Twitter profil"
+#~ msgstr "Twitter profil"
+
+#~ msgid "Flickr profil"
+#~ msgstr "Flickr profil"
+
+#~ msgid "Category"
+#~ msgstr "Kategória"
+
+#~ msgid "%1$s Responses to %2$s"
+#~ msgstr "%1$ s reakcie na %2$s"
+
+#~ msgid "Typo-o-Graphy Options."
+#~ msgstr "Typo-o-pornografia možnosti."

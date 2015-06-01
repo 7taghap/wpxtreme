@@ -1,0 +1,1262 @@
+/*
+ Theme Name: Matisse
+ Theme URI: http://blankcanvas.eu/wordpress/matisse/
+ Description: Minimalistic two-columns, fixed-width,  seo optimized  theme for WordPress. 
+ Author: Tomasz Mazur
+ Author URI: http://blankcanvas.eu/
+ Version: 2.0.1
+ Tags: fixed-layout, microformats, sticky-post, right-sidebar, black, sticky-post, holiday, photoblogging, threaded-comments, theme-options,  white, black, translation-ready, custom-menu, editor-style, featured-image-header, post-formats, custom-background, featured-images, left-sidebar,  responsive-layout, full-width-template, orange
+ License:GNU General Public License, v2 (or newer)
+ License URI:http://www.gnu.org/licenses/old-licenses/gpl-2.0.html
+ -----------------------------------------------------------------------------------
+All pictures were created by Tomasz Mazur - http://www.tommek.eu/
+All pictures are avaiable on GPL licence.
+ -----------------------------------------------------------------------------------
+ 1.	CSS Reset & Clearfix
+ 2.	Grid System
+ 3.	HTML Tags
+ 4.  Header Styles
+ 5.	Primery Navigation
+ 6.	Post Content Styles
+ 7.	Sidebar
+ 8.	Comments
+ 9.	Footer Styles
+ 10. Gallery Styles
+ 11. Wordpress Styles
+ 12. Pagination
+ 13. Shortcode
+ 14. Lightbox Styles
+ 15. Slideshow
+ -----------------------------------------------------------------------------------*/
+
+/*----------*/
+/*	1.	CSS Reset & Clearfix - http://meyerweb.com/eric/tools/css/reset/ */
+/*----------*/
+/*
+ http://meyerweb.com/eric/tools/css/reset/
+ v2.0 | 20110126
+ License: none (public domain)
+ */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+	display: block;
+	-webkit-hyphens: none;
+	-moz-hyphens: none;
+	hyphens: none;
+	-ms-hyphens: none;
+	-o-hyphens: none;
+}
+*, *:before, *:after {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+/*----------*/
+/*	2. Grid System */
+/*----------*/
+/*
+ * Skeleton V1.1
+ * Copyright 2011, Dave Gamache
+ * www.getskeleton.com
+ * Free to use under the MIT license.
+ * http://www.opensource.org/licenses/mit-license.php
+ * 8/17/2011
+ */
+
+/*----------*/
+/*	3.	HTML tags */
+/*----------*/
+html {
+	overflow-y: scroll;
+	font-size: 100%;
+	-webkit-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+}
+body {
+	font: 1em Cambria, Georgia, "Times New Roman", Times, serif;
+	line-height: 1.5em;
+	color: #444;
+	-ms-word-wrap: break-word;
+	word-wrap: break-word;
+	background: #fff;
+}
+p, ul, ol, table, input, textarea, dl, .gallery {
+	margin: 0 0 1em 0;
+}
+p {
+	text-indent: 0;
+	-webkit-hyphens: auto;
+	-moz-hyphens: auto;
+	-ms-hyphens: auto;
+	hyphens: auto;
+}
+h1, h2, h3, h4, h5, h6 {
+	line-height: 1.1;
+	margin: 0 0 0.5em;
+}
+h1 {
+	font-size: 22px;
+	font-size: 2.2 rem;
+	line-height: .91667;
+}
+
+h2 {
+	font-size: 20px;
+	font-size: 2.0 rem;
+	line-height: 1.375;
+}
+h3, h4 {
+	font-size: 18px;
+	font-size: 1.8 rem;
+	line-height: 1.57143;
+}
+
+h5, h6 {
+	font-size: 16px;
+	font-size: 1.6 rem;
+	line-height: 2;
+}
+
+a {
+	outline: none;
+	color: #dd3333;
+	text-decoration: none;
+}
+a:hover {
+	color: #777
+}
+a, input[type=submit], input[type=button], input[type=text], textarea {
+	-webkit-transition: all 0.2s ease-out;
+	-moz-transition: all 0.2s ease-out;
+	-ms-transition: all 0.2s ease-out;
+	-o-transition: all 0.2s ease-out;
+	transition: all 0.2s ease-out;
+}
+img {
+	border: 0;
+	-ms-interpolation-mode: bicubic;
+	height: auto;
+	max-width: 100%;
+	width: auto;
+}
+embed, iframe, object, video {
+	max-width: 100%;
+}
+del {
+	text-decoration: line-through;
+}
+ol, ul {
+	list-style: none
+}
+dt {
+	font-weight: bold;
+}
+ul, ol {
+	list-style: disc;
+	margin: 0 0 1em 2em;
+}
+ul ul {
+	list-style: circle;
+	margin: 0 0 0 1em;
+}
+ul ul ul {
+	list-style: square;
+}
+ol {
+	list-style: decimal
+}
+ol ol {
+	list-style: lower-alpha;
+	margin: 0 0 0 1.4em;
+}
+ol ol ol {
+	list-style: lower-roman
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote {
+	padding: 0 0 0 1.5em;
+	border-left: 4px solid #eee;
+	margin: 0 0 1em;
+}
+blockquote:before, blockquote:after, q:before, q:after {
+	content: '';
+}
+q, var, cite {
+	font-style: italic;
+}
+blockquote cite {
+	font-variant: small-caps;
+}
+address {
+	margin: 1em 0;
+	font-style: italic;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+	font-family: Consolas, "Courier New", Courier, monospace;
+	width: 100%;
+	margin: 0 0 1em;
+}
+thead th {
+	background: #efefef;
+}
+td, th {
+	padding: 4px 5px;
+	border: 1px solid #ddd;
+}
+pre {
+	font-family: Consolas, "Courier New", Courier, monospace;
+	color: #222;
+	background: #eee;
+	padding: 10px;
+	overflow: auto;
+	margin-bottom: 1em
+}
+code {
+	font-family: Consolas, "Courier New", Courier, monospace;
+	font-weight: normal;
+	font-style: normal;
+}
+sup, sub {
+	height: 0;
+	line-height: 1;
+	position: relative;
+	vertical-align: baseline;
+	font-size: 0.81em;
+}
+sup {
+	bottom: 1ex;
+}
+sub {
+	top: 0.5ex;
+}
+abbr {
+	cursor: help;
+}
+em, i {
+	font-style: italic
+}
+strong, b {
+	font-weight: bold;
+}
+big {
+	font-size: larger
+}
+abbr {
+	cursor: help;
+	text-decoration: underline;
+}
+acronym {
+	font-variant: small-caps
+}
+input, textarea {
+	background: #fefefe;
+	border: 3px solid #ddd;
+	padding: 5px 6px;
+}
+button, input[type="button"], input[type="reset"], input[type="submit"], #searchsubmit {
+	background: #f9ecb1; /* Old browsers */
+	background: -moz-linear-gradient(top,  #f9ecb1 0%, #fce2bd 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f9ecb1), color-stop(100%,#fce2bd)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #f9ecb1 0%,#fce2bd 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #f9ecb1 0%,#fce2bd 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #f9ecb1 0%,#fce2bd 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #f9ecb1 0%,#fce2bd 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f9ecb1', endColorstr='#fce2bd',GradientType=0 ); /* IE6-9 */
+	cursor: pointer;
+	border: 2px solid #ddd;
+}
+button:hover, button:focus, button:active, input[type="button"]:hover, input[type="button"]:focus, input[type="button"]:active, input[type="reset"]:hover, input[type="reset"]:focus, input[type="reset"]:active, input[type="submit"]:hover, input[type="submit"]:focus, input[type="submit"]:active, #searchsubmit:hover, #searchsubmit:active, #searchsubmit:fokus {
+	opacity: 0.8
+}
+::selection {
+	background-color: #55595c;
+	color: #fff;
+	text-shadow: 0 1px 0 #000;
+}
+::-moz-selection {
+	background-color: #55595c;
+	color: #fff;
+	text-shadow: 0 1px 0 #000;
+}
+/*----------*/
+/*	4.	Header Styles */
+/*----------*/
+#wrapper {
+	background: #fff;
+	padding-top: 20px;
+}
+#header {
+	background: #FFA26F;
+}
+#header h1, #header h2 {
+	margin: 10px 0;
+}
+#logo img {
+	margin-top: 10px;
+}
+#header h1 a {
+	color: #000;
+	margin: 0;
+	padding: 0;
+}
+#header h2 {
+	text-align: right;
+	margin: 10px 0;
+	font-size: 22px !important
+}
+/*----------*/
+/*	5.	Primery Navigation */
+/*----------*/
+#nav {
+	background: #353535;
+	z-index: 8888
+}
+.menu-primary {
+	position: relative;
+	width: 100%;
+	padding: 5px 0;
+}
+.menu-primary a {
+	text-align: center;
+	display: block;
+	padding: 5px 8px 8px 8px;
+	color: #fff
+}
+.menu-primary ul {
+	padding: 0;
+	z-index: 500;
+	list-style: none;
+}
+.menu-primary ul ul {
+	position: absolute;
+	z-index: 10000 !important;
+	top: auto;
+	display: none;
+	padding: 1em;
+	margin: 0;
+	background: #3F3F3F;
+	-webkit-box-shadow: 1px 1px 1px #000;
+	-moz-box-shadow: 1px 1px 1px #000;
+	box-shadow: 1px 1px 1px #000;
+}
+.menu-primary ul ul ul {
+	z-index: 7001;
+	top: 0;
+	left: 100%;
+}
+.menu-primary li {
+	float: left;
+	position: relative;
+	min-height: 1px;
+	vertical-align: bottom;
+}
+.menu-primary li li {
+	border-top: 1px #555 solid;
+	margin: 0;
+	width: 200px;
+	background: none
+}
+.menu-primary li li:last-child {
+	border-bottom: 1px #555 solid;
+}
+.menu-primary li li a {
+	text-align: left;
+}
+.menu-primary .current_page_item a, .menu-primary .current-menu-item a, .menu-primary .sub-menu .current_page_item a, .menu-primary .sub-menu .sub-menu .current-menu-item a, .menu-primary .current-menu-ancestor a, .menu-primary .current_page_ancestor a {
+	color: #aaa;
+}
+.menu-primary .children .current-menu-item a, .menu-primary .children .children .current-menu-item a, .menu-primary .children .current_page_item a, .menu-primary .children .children .current_page_item a {
+	color: #000
+}
+.menu-primary li:hover {
+	cursor: pointer;
+	z-index: 100;
+}
+.menu-primary li:hover ul ul, .menu-primary li li:hover ul ul, .menu-primary li li li:hover ul ul, .menu-primary li li li li:hover ul ul {
+	display: none;
+}
+.menu-primary li:hover ul, .menu-primary li li:hover ul, .menu-primary li li li:hover ul, .menu-primary li li li li:hover ul {
+	display: block;
+}
+.menu-item-has-children > a::after {
+	content: "▼";
+	font-size: 10px;
+	padding-left: 1em
+}
+/*----------*/
+/*	6.	Post Content Styles */
+/*----------*/
+article header, article footer {
+	margin: 0 0 1.5em 0;
+	font-size: 0.87em
+}
+.single article header {
+	margin: 0 0 2em;
+}
+article footer:after {
+	clear: both;
+	content: " ";
+}
+.page-template-slide-posts-masonry-page-php .post {
+	margin-bottom: 20px;
+	border-bottom: 4px solid #eee;
+}
+.title a {
+	color: #777
+}
+.title {
+	font-size: 24px
+}
+#content .post, .wp-audio-shortcode{
+	margin: 0 0 1.5em 0;
+	border-bottom: 4px solid #eee;
+}
+.attachment section img {
+	max-width: 940px;
+	display: block;
+	margin: 0 auto;
+}
+.page-link {
+	clear: both;
+	border-top: 1px dotted #ccc;
+	border-bottom: 1px dotted #ccc;
+	padding: 4px;
+	letter-spacing: 5px;
+	color: #777;
+	margin-bottom: 2em;
+}
+.post-edit-link {
+	font-size: 0.88em;
+	padding: 5px 8px;
+	box-shadow: 0 0 2px #bbb
+}
+.entry-author {
+	margin-bottom: 1em;
+	padding: 10px;
+}
+.link_more {
+	white-space: nowrap
+}
+#breadcrumbs {
+	margin-bottom: 20px;
+	padding-bottom: 0.5em;
+	border-bottom: 4px solid #eee;
+}
+/*
+ format - aside
+ */
+.page .format-aside header, .archive .format-aside header {
+	min-height: 60px;
+	background: url(images/aside.png) no-repeat top right;
+}
+/*
+ format - link
+ */
+.format-link .title a{
+	font-weight: bold;
+}
+.format-link .title a:after{
+	content: " »";
+	color: #bbb;
+}
+.paged .format-link header, .archive .format-link header{
+	min-height: 60px;
+	background: url(images/link.png) no-repeat top right;
+}
+/*
+ format - quote
+ */
+.paged .format-quote .post-content, .archive .format-quote .post-content {
+	margin: 20px 0;
+	padding: 1em;
+	background: #eee;
+	font-size: large
+}
+.paged .format-quote footer, .archive .format-quote footer{
+	background: url(images/quote.png) no-repeat top right;
+	min-height: 60px;
+}
+/*
+ format - gallery
+ */
+.paged .format-gallery, .archive .format-gallery {
+	background: url(images/gallery.png) no-repeat top right;
+}
+/*
+ format - image
+ */
+.paged .format-image, .archive .format-image {
+	background: url(images/image.png) no-repeat top right;
+}
+/*
+ format - video
+ */
+.paged .format-video, .archive .format-video {
+	background: url(images/video.png) no-repeat top right;
+}
+/*
+ format - audio
+ */
+.paged .format-audio, .archive .format-audio {
+	background: url(images/audio.png) no-repeat top right;
+}
+/*
+ format - status
+ */
+.paged .format-status .avatar, .archive .format-status .avatar{
+	border-radius: 30px;
+}
+/*
+ format - chat
+ */
+.paged .format-chat, .archive .format-chat {
+	background: url(images/chat.png) no-repeat top right;
+}
+.format-chat .post-content dd, .format-chat .post-content p:nth-child(2n) {
+    padding: 5px 10px;
+}
+.format-chat .post-content dt, .format-chat .post-content p:nth-child(2n+1) {
+    background: #eee;
+    padding: 5px 10px;
+}
+/**/
+.sticky{ 
+	border-bottom: 4px solid #AF9415!important;
+	background: url(images/sticky.png) no-repeat top right;
+}
+/**/
+.comments-link {
+	float: right;
+	background: #aaa;
+	text-align: center;
+	color: #fff;
+	font-size: small;
+	padding: 5px 8px;
+	margin: 5px 0 0 10px;
+	border-radius: 3px;
+}
+.by-author {
+	margin-right: 20px;
+}
+/*
+ author post
+ */
+#author-info {
+	background: #eaeaea;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+	padding: 10px;
+	margin: 10px 0 20px 0;
+	overflow: hidden;
+	clear: both
+}
+.author #author-info {
+	background: none;
+	-moz-border-radius: 0;
+	-webkit-border-radius: 0;
+	border-radius: 0;
+	margin: 0 0 20px;
+	padding: 0;
+}
+#author-info h2, #author-info p, #author-info ul {
+	margin: 0 0 5px 118px;
+}
+#author-info h2 {
+	font-size: 16px;
+}
+#author-info .avatar {
+	float: left;
+	margin-top: 5px;
+	padding: 5px;
+	background: #fff;
+}
+.view-all{
+	border: 3px solid #eee; 
+	padding: 5px 10px; 
+	display: block;
+}
+.view-all:hover{
+	background: #eee
+}
+/*----------*/
+/*	7. Sidebar */
+/*----------*/
+
+.sidebar {
+	margin: 0 0 1em 0;
+	word-wrap: break-word;
+}
+.sidebar ul, .sidebar ol {
+	list-style: none;
+	margin-left: 0;
+}
+.widget_pages li, .menu li, .widget_meta li, .widget_categories li, .widget_archive li, .widget_recent_comments li, .widget_recent_entries li {
+	list-style: circle;
+	list-style-image: url(images/list.png);
+	margin-left: 1em;
+}
+.widget li li li {
+	margin: 0 0 0 1em;
+}
+.widget-container {
+	margin-bottom: 1em;
+}
+.widget .vcard .photo {
+	float: right;
+	margin: 6px 0 2px 4px;
+	padding: 5px 5px 0 5px;
+	background: #eee;
+}
+.tagcloud {
+	letter-spacing: 0.05em;
+}
+.screen-reader-text {
+	position: absolute !important;
+	clip: rect(1px 1px 1px 1px);
+	clip: rect(1px, 1px, 1px, 1px);
+}
+/*----------*/
+/*	8. Comments */
+/*----------*/
+
+#comments {
+	margin-bottom: 20px;
+}
+.commentlist, .commentlist .children {
+	list-style: none
+}
+#comments .wp-pagenavi {
+	padding: 10px 0;
+	margin: 10px 0;
+}
+#comments label, #comments small {
+	font-size: 0.88em;
+}
+#respond {
+	clear: both;
+	margin: 30px 0;
+	background: #fff;
+}
+#respond textarea {
+	width: 95%;
+}
+#comments .comment {
+	padding: 10px 0;
+	border-bottom: 4px solid #ddd;
+	margin-bottom: 5px;
+}
+.comment .children .comment-body {
+	border-bottom: 4px solid #ddd;
+}
+.comment .children .comment-body:last-child {
+	border-bottom: none;
+}
+.comment-content {
+	background: #efefef;
+	padding: 8px 10px;
+}
+.comment-author .avatar {
+	background: #d5d5d5;
+	border-radius: 50px;
+	float: left;
+	margin: 0 10px 6px 0;
+}
+.depth-2, .depth-3, .depth-4, .depth-5, .depth-6, .depth-7, .depth-8, .depth-9, .depth-10 {
+	margin: 10px 0 0 4%;
+}
+.reply {
+	margin: 10px auto;
+}
+.reply a {
+	box-shadow: 1px 1px 2px #aaa;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+	padding: 4px 8px;
+	background: #eee;
+}
+#respond code {
+	border: none;
+	font-size: 11px;
+	padding: 0;
+	overflow: hidden;
+}
+.comment-form-author, .comment-form-email, .comment-form-url {
+	width: 210px;
+}
+.comment-form-comment label {
+	display: block;
+}
+.nopassword, .page .nocomments {
+	display: none;
+}
+.nocomments {
+	font-size: 24px;
+	color: #ddd;
+	text-align: center;
+}
+.commentlist .pingback p, .commentlist .trackback p {
+	border: 1px solid #d5d5d5;
+	background: #efefef;
+	padding: 10px;
+	margin: 10px 0;
+}
+#comments .byuser .comment-author, .bypostauthor .comment-author {
+	border: 2px solid #FFA26F
+}
+
+/*----------*/
+/*	9. Fotter */
+/*----------*/
+
+#footer {
+	clear: both;
+}
+.footer-widget #footer {
+	background: #d5d5d5;
+}
+.footer-widget #footer .container {
+	background: #d5d5d5 url(images/footer.jpg) no-repeat bottom center;
+}
+#footer h3, #footer p {
+	margin: 6px 0;
+}
+#footer ul {
+	list-style: none;
+	margin-left: 0
+}
+#footer li {
+	padding: 2px 0 4px 0;
+}
+#footermenu {
+	clear: both;
+	padding: 10px 0;
+	text-align: right;
+	color: #999;
+}
+#footermenu li {
+	display: inline;
+}
+#footermenu a {
+	color: #777;
+	font-weight: bold
+}
+/*----------*/
+/*	10. Gallery */
+/*----------*/
+.gallery {
+	float: left;
+	width: 100%;
+}
+.gallery-item {
+	float: left;
+	margin: 0;
+}
+.gallery-item img {
+	width: auto;
+	max-width: 100%;
+	height: auto;
+	display: block;
+	margin: 0 auto;
+}
+.gallery-columns-1 .gallery-item {
+	width: 98%;
+	margin: 1%;
+}
+.gallery-columns-2 .gallery-item {
+	width: 48%;
+	margin: 1%;
+}
+.gallery-columns-3 .gallery-item {
+	width: 31%;
+	margin: 1%;
+}
+.gallery-columns-4 .gallery-item {
+	width: 23%;
+	margin: 1%;
+}
+.gallery-columns-5 .gallery-item {
+	width: 19%;
+	margin: 0.2%;
+}
+.gallery-columns-6 .gallery-item {
+	width: 16%;
+	margin: 0.3%;
+}
+.gallery-columns-7 .gallery-item {
+	width: 14%;
+	margin: 0.1%;
+}
+.gallery-columns-8 .gallery-item {
+	width: 12%;
+	margin: 0.1%;
+}
+.gallery-columns-9 .gallery-item {
+	width: 10%;
+	margin: 0.1%;
+}
+.gallery-columns-10 .gallery-item {
+	width: 8%;
+	margin: 0.1%;
+	padding: 1% 0;
+}
+
+.gallery-columns-5 .gallery-caption, .gallery-columns-6 .gallery-caption, .gallery-columns-7 .gallery-caption, .gallery-columns-8 .gallery-caption, .gallery-columns-9 .gallery-caption, .gallery-columns-10 .gallery-caption {
+	display: none;
+}
+.gallery-caption {
+	margin: 3px auto;
+	font-size: 0.88em;
+	display: block;
+	text-align: center;
+	font-style: italic;
+}
+.wp-caption, .wp-caption-text {
+	margin: 0 0 6px;
+	width: auto;
+	max-width: 100%;
+	height: auto;
+	font-size: 0.88em;
+}
+.wp-caption img {
+	margin: 0;
+	max-width: 100%;
+	height: auto;
+	width: auto;
+}
+.alignnone img {
+	display: inline !important;
+	float: none !important;
+}
+
+.wp-caption.alignright {
+	margin: 7px 1px 7px 10px;
+}
+.wp-caption.alignleft {
+	margin: 7px 10px 7px 1px;
+}
+.wp-caption.aligncenter {
+	margin: 1em auto;
+}
+.wp-caption.alignnone {
+	margin: 1em 1px;
+}
+.gallery br {
+	clear: both
+}
+.entry-caption {
+	margin: 0 10px;
+}
+/*------------*/
+/*  Wordpress class */
+/*------------*/
+.wpstats {
+	display: none;
+}
+.aligncenter {
+	clear: both;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+.alignnone {
+	clear: both;
+	margin: 1em 0
+}
+.alignright {
+	float: right;
+}
+.alignleft {
+	float: left;
+}
+img.alignright {
+	float: right;
+	margin: 0.4em 0 0.1em 0.9em
+}
+
+img.alignleft {
+	float: left;
+	margin: 0.4em 0.9em 0.1em 0
+}
+
+img.aligncenter {
+	clear: both;
+	display: block;
+	margin: 1em auto;
+}
+img.alignnone {
+	clear: both;
+	margin: 0;
+}
+.wpstats {
+	display: none;
+}
+.txt-right {
+	text-align: right;
+}
+.txt-center {
+	text-align: center;
+}
+.size-auto, .size-full, .size-large, .size-medium, .size-thumbnail {
+	max-width: 100%;
+	width: auto;
+	height: auto;
+}
+/*----------*/
+/*	12. Pagination */
+/*----------*/
+.wp-pagenavi {
+	margin: 10px 0;
+	padding: 10px 0;
+}
+.wp-pagenavi .page-numbers {
+	padding: 5px 10px;
+	border: 1px solid #DFDFDF;
+	float: left;
+	margin: 1em 2em 1em 0;
+}
+.wp-pagenavi a.page-numbers:hover {
+	background: #efefef;
+}
+.wp-pagenavi .dots, .wp-pagenavi .next, .wp-pagenavi  .prev {
+	border: none;
+	background: none;
+}
+.wp-pagenavi .current {
+	background: #777;
+	color: #fff;
+}
+
+/*----------*/
+/*	14. Lightbox Styles */
+/*----------*/
+/*----------*/
+/*	15. Slideshow */
+/*----------*/
+/*
+ * jQuery FlexSlider v2.0
+ * http://www.woothemes.com/flexslider/
+ *
+ * Copyright 2012 WooThemes
+ * Free to use under the GPLv2 license.
+ * http://www.gnu.org/licenses/gpl-2.0.html
+ *
+ * Contributing author: Tyler Smith (@mbmufffin)
+ */
+
+/* Browser Resets */
+.flex-container a:active, .flexslider a:active, .flex-container a:focus, .flexslider a:focus {
+	outline: none;
+}
+.slides, .flex-control-nav, .flex-direction-nav {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+/* FlexSlider Necessary Styles
+ *********************************/
+.flexslider {
+	margin: 0;
+	padding: 0;
+}
+.flexslider .slides > li {
+	display: none;
+	-webkit-backface-visibility: hidden;
+	list-style: none
+}/* Hide the slides before the JS is loaded. Avoids image jumping */
+.flexslider .slides img {
+	display: block;
+}
+.flex-pauseplay span {
+	text-transform: capitalize;
+}
+
+/* Clearfix for the .slides element */
+.slides:after {
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	line-height: 0;
+	height: 0;
+}
+html[xmlns] .slides {
+	display: block;
+}
+* html .slides {
+	height: 1%;
+}
+.slides {
+	margin: 0 !important
+}
+/* No JavaScript Fallback */
+/* If you are not using another script, such as Modernizr, make sure you
+ * include js that eliminates this class on page load */
+.no-js .slides > li:first-child {
+	display: block;
+}
+
+/* FlexSlider Default Theme
+ *********************************/
+#slideshome {
+	background: #FFA26F url("images/content.jpg") no-repeat top center;
+	margin: 0 0 20px;
+	padding: 20px 0 0;
+}
+.rslides {
+  position: relative;
+  list-style: none;
+  overflow: hidden;
+  width: 100%;
+  min-height: 370px;
+  padding: 0 0 10px 0;
+  margin: 0;
+  }
+
+.rslides li {
+  -webkit-backface-visibility: hidden;
+  position: absolute;
+  display: none;
+  width: 100%;
+  left: 0;
+  top: 0;
+  }
+
+.rslides li:first-child {
+  position: relative;
+  display: block;
+  float: left;
+  }
+
+.rslides img {
+  display: block;
+  height: auto;
+  float: left;
+  width: 100%;
+  border: 0;
+  }
+.rslides_tabs{
+	list-style: none;
+	position: absolute;
+	bottom: 10px;
+	right: 10px;
+}
+.rslides_tabs li{
+	float: left;
+	margin: 0 20px 0 0;
+}
+.rslides_here a{
+	color: #000;
+}
+.no_img h2{
+	font-size: 30px;
+	text-align: center
+}
+/****Sticky menu****/
+.slicknav_menu {
+	display: none !important;
+}
+
+@media screen and (max-width: 767px) {
+	#nav {
+		display: none;
+	}
+
+	.slicknav_menu {
+		display: block !important;
+	}
+	.menu-item-has-children > a::after {
+		content: "";
+		font-size: 10px;
+		padding-left: 0
+	}
+}
+.slicknav_nav .container{
+	width: 92%;
+	margin-bottom: 10px;
+}
+/*
+ Mobile Menu Core Style
+ */
+.slicknav_btn {
+	position: relative;
+	display: block;
+	vertical-align: middle;
+	float: right;
+	padding: 0.438em 0.625em 0.438em 0.625em;
+	line-height: 1.125em;
+	cursor: pointer;
+}
+.slicknav_menu  .slicknav_menutxt {
+	display: block;
+	line-height: 1.188em;
+	float: left;
+}
+.slicknav_menu .slicknav_icon {
+	float: left;
+	margin: 0.188em 0 0 0.438em;
+}
+.slicknav_menu .slicknav_no-text {
+	margin: 0
+}
+.slicknav_menu .slicknav_icon-bar {
+	display: block;
+	width: 1.125em;
+	height: 0.125em;
+	-webkit-border-radius: 1px;
+	-moz-border-radius: 1px;
+	border-radius: 1px;
+	-webkit-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.25);
+	-moz-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.25);
+	box-shadow: 0 1px 0 rgba(0, 0, 0, 0.25);
+}
+.slicknav_btn .slicknav_icon-bar + .slicknav_icon-bar {
+	margin-top: 0.188em
+}
+.slicknav_nav {
+	clear: both
+}
+.slicknav_nav ul, .slicknav_nav li {
+	display: block
+}
+.slicknav_nav .slicknav_arrow {
+	font-size: 0.8em;
+	margin: 0 0 0 2em;
+}
+.slicknav_nav .slicknav_item {
+	cursor: pointer;
+}
+.slicknav_nav .slicknav_row {
+	display: block;
+}
+.slicknav_nav a {
+	display: block
+}
+.slicknav_nav .slicknav_item a, .slicknav_nav .slicknav_parent-link a {
+	display: inline
+}
+.slicknav_menu:before, .slicknav_menu:after {
+	content: " ";
+	display: table;
+}
+.slicknav_menu:after {
+	clear: both
+}
+/* IE6/7 support */
+.slicknav_menu {
+	*zoom: 1
+}
+
+/*
+ User Default Style
+ Change the following styles to modify the appearance of the menu.
+ */
+
+/* Button */
+.slicknav_btn {
+	text-decoration: none;
+	text-shadow: 0 1px 1px rgba(255, 255, 255, 0.75);
+	background-color: #222222;
+	padding: 8px 10px;
+	display: block
+}
+/* Button Text */
+.slicknav_menu  .slicknav_menutxt {
+	color: #FFF;
+	font-weight: bold;
+	text-shadow: 0 1px 3px #000;
+}
+/* Button Lines */
+.slicknav_menu .slicknav_icon-bar {
+	background-color: #f5f5f5;
+}
+.slicknav_menu {
+	background: #4c4c4c;
+}
+.slicknav_nav {
+	color: #fff;
+	margin: 0;
+	padding: 0;
+	font-size: 0.875em;
+}
+.slicknav_nav, .slicknav_nav ul {
+	list-style: none;
+	overflow: hidden;
+}
+.slicknav_nav ul {
+	padding: 0;
+	margin: 0 3%;
+}
+.slicknav_nav .slicknav_row {
+	padding: 5px 10px;
+	margin: 2px 5px;
+}
+.slicknav_nav a {
+	padding: 5px 10px;
+	margin: 2px 5px;
+	text-decoration: none;
+	color: #fff;
+}
+.slicknav_nav .slicknav_item a, .slicknav_nav .slicknav_parent-link a {
+	padding: 0;
+	margin: 0;
+}
+.slicknav_nav a:hover, .slicknav_open{
+	background: #222;
+	color: #fff;
+}
+.slicknav_open a:hover{
+	background: #777;
+	color: #fff;
+}
+.slicknav_nav .slicknav_txtnode {
+	margin-left: 15px;
+}
+
+/*----------------------------------------------------------------------------*\
+ Headhesive Specific Styles
+ /*----------------------------------------------------------------------------*/
+
+.banner-clone {
+
+	/* Required styles */
+	position: fixed;
+	top: 0;
+	left: 0;
+	/* Additional styles */
+	background: #c95a5d;
+	/* Translate -100% to move off screen */
+	-webkit-transform: translateY(-100%);
+	-ms-transform: translateY(-100%);
+	transform: translateY(-100%);
+	/* Animations */
+	-webkit-transition: all 300ms ease-in-out;
+	-moz-transition: all 300ms ease-in-out;
+	transition: all 300ms ease-in-out;
+}
+
+.banner-stick {
+
+	/* Translate back to 0%; */
+	-webkit-transform: translateY(0%);
+	-ms-transform: translateY(0%);
+	transform: translateY(0%);
+}
+
+.banner-unstick {
+	/* Not required to use, but could be useful to have */
+}

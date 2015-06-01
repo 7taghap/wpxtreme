@@ -1,0 +1,529 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: matisse\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-12-02 17:34+0100\n"
+"PO-Revision-Date: 2014-12-02 17:34+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: uk_UA\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Generator: Poedit 1.6.5\n"
+"X-Poedit-SearchPath-0: E:\\www\\wordpress\\wp-content\\themes\\matisse\n"
+
+#: E:\www\wordpress\wp-content\themes\matisse/404.php:9
+msgid "Error 404 - Not Found"
+msgstr "Помилка 404 - Not Found"
+
+#: E:\www\wordpress\wp-content\themes\matisse/404.php:11
+msgid ""
+"Apologies, but no results were found for the requested archive. Perhaps "
+"searching will help find a related post."
+msgstr ""
+"Вибачення, але нічого не було знайдено на вказаний архів. Можливо, пошук "
+"допоможе знайти відповідне повідомлення."
+
+#: E:\www\wordpress\wp-content\themes\matisse/archive.php:9
+#, php-format
+msgid "Day: <span>%s</span>"
+msgstr "Щодня Архіви: <span>%s</span> "
+
+#: E:\www\wordpress\wp-content\themes\matisse/archive.php:11
+#, php-format
+msgid "Month: <span>%s</span>"
+msgstr "Архів за місяць: <span>%s</span> "
+
+#: E:\www\wordpress\wp-content\themes\matisse/archive.php:13
+#, php-format
+msgid "Year: <span>%s</span>"
+msgstr "Щорічні Архіви: <span>%s</span> "
+
+#: E:\www\wordpress\wp-content\themes\matisse/archive.php:16
+#: E:\www\wordpress\wp-content\themes\matisse/archive.php:23
+#, php-format
+msgid "<span>%s</span>"
+msgstr "Архіви: <span>%s</span> "
+
+#: E:\www\wordpress\wp-content\themes\matisse/archive.php:46
+msgid "Archives"
+msgstr "Архів"
+
+#: E:\www\wordpress\wp-content\themes\matisse/comments.php:5
+msgid ""
+"This post is password protected. Enter the password to view any comments."
+msgstr ""
+"Це повідомлення захищене паролем. Введіть пароль для перегляду коментарів."
+
+#: E:\www\wordpress\wp-content\themes\matisse/comments.php:40
+msgid "Comments are closed."
+msgstr "Коментарі закриті."
+
+#: E:\www\wordpress\wp-content\themes\matisse/content-gallery.php:12
+#: E:\www\wordpress\wp-content\themes\matisse/content-image.php:22
+#: E:\www\wordpress\wp-content\themes\matisse/content-link.php:8
+#: E:\www\wordpress\wp-content\themes\matisse/content.php:8
+#: E:\www\wordpress\wp-content\themes\matisse/loop-aside.php:8
+#: E:\www\wordpress\wp-content\themes\matisse/loop-status.php:14
+#: E:\www\wordpress\wp-content\themes\matisse/loop.php:4
+#: E:\www\wordpress\wp-content\themes\matisse/slide-posts-masonry-page.php:74
+msgid "0"
+msgstr "0"
+
+#: E:\www\wordpress\wp-content\themes\matisse/content-gallery.php:12
+#: E:\www\wordpress\wp-content\themes\matisse/content-image.php:22
+#: E:\www\wordpress\wp-content\themes\matisse/content-link.php:8
+#: E:\www\wordpress\wp-content\themes\matisse/content.php:8
+#: E:\www\wordpress\wp-content\themes\matisse/loop-aside.php:8
+#: E:\www\wordpress\wp-content\themes\matisse/loop-status.php:14
+#: E:\www\wordpress\wp-content\themes\matisse/loop.php:4
+#: E:\www\wordpress\wp-content\themes\matisse/slide-posts-masonry-page.php:74
+msgid "1"
+msgstr "1"
+
+#: E:\www\wordpress\wp-content\themes\matisse/content-gallery.php:12
+#: E:\www\wordpress\wp-content\themes\matisse/content-image.php:22
+#: E:\www\wordpress\wp-content\themes\matisse/content-link.php:8
+#: E:\www\wordpress\wp-content\themes\matisse/content.php:8
+#: E:\www\wordpress\wp-content\themes\matisse/loop-aside.php:8
+#: E:\www\wordpress\wp-content\themes\matisse/loop-status.php:14
+#: E:\www\wordpress\wp-content\themes\matisse/loop.php:4
+#: E:\www\wordpress\wp-content\themes\matisse/slide-posts-masonry-page.php:74
+msgid "%"
+msgstr "%"
+
+#: E:\www\wordpress\wp-content\themes\matisse/content-gallery.php:12
+#: E:\www\wordpress\wp-content\themes\matisse/content-image.php:22
+#: E:\www\wordpress\wp-content\themes\matisse/content-link.php:8
+#: E:\www\wordpress\wp-content\themes\matisse/content.php:8
+#: E:\www\wordpress\wp-content\themes\matisse/loop-aside.php:8
+#: E:\www\wordpress\wp-content\themes\matisse/loop-status.php:14
+#: E:\www\wordpress\wp-content\themes\matisse/loop.php:4
+#: E:\www\wordpress\wp-content\themes\matisse/slide-posts-masonry-page.php:74
+msgid "Comments are off for this post"
+msgstr "Коментарі вимкнені на цей пост"
+
+#: E:\www\wordpress\wp-content\themes\matisse/content-gallery.php:19
+#: E:\www\wordpress\wp-content\themes\matisse/content-image.php:30
+#: E:\www\wordpress\wp-content\themes\matisse/content-link.php:15
+#: E:\www\wordpress\wp-content\themes\matisse/content.php:19
+#: E:\www\wordpress\wp-content\themes\matisse/functions.php:193
+#: E:\www\wordpress\wp-content\themes\matisse/image.php:56
+msgid "Continue reading &rarr;"
+msgstr "Читати далі →"
+
+#: E:\www\wordpress\wp-content\themes\matisse/content-gallery.php:22
+#: E:\www\wordpress\wp-content\themes\matisse/content-image.php:33
+#: E:\www\wordpress\wp-content\themes\matisse/content-link.php:18
+#: E:\www\wordpress\wp-content\themes\matisse/content.php:22
+#: E:\www\wordpress\wp-content\themes\matisse/loop.php:22
+#: E:\www\wordpress\wp-content\themes\matisse/page.php:22
+#: E:\www\wordpress\wp-content\themes\matisse/sidebar-page.php:20
+#: E:\www\wordpress\wp-content\themes\matisse/slide-posts-masonry-page.php:98
+msgid "Pages:"
+msgstr "Сторінки:"
+
+#: E:\www\wordpress\wp-content\themes\matisse/content-gallery.php:35
+#: E:\www\wordpress\wp-content\themes\matisse/content-image.php:44
+#: E:\www\wordpress\wp-content\themes\matisse/content-link.php:28
+#: E:\www\wordpress\wp-content\themes\matisse/content.php:34
+#, php-format
+msgid "About %s"
+msgstr "О %s"
+
+#: E:\www\wordpress\wp-content\themes\matisse/content-gallery.php:38
+#: E:\www\wordpress\wp-content\themes\matisse/content-image.php:47
+#: E:\www\wordpress\wp-content\themes\matisse/content-link.php:31
+#: E:\www\wordpress\wp-content\themes\matisse/content.php:37
+#, php-format
+msgid "View all posts by %s &rarr;"
+msgstr "Перегляд всіх публікацій %s &rarr;"
+
+#: E:\www\wordpress\wp-content\themes\matisse/footer.php:28
+msgid "http://wordpress.org/"
+msgstr "http://wordpress.org/"
+
+#: E:\www\wordpress\wp-content\themes\matisse/footer.php:28
+msgid ""
+"Powered by WordPress, state-of-the-art semantic personal publishing platform."
+msgstr ""
+"Працює на, держ-оф-мистецтво семантичну персональна платформу для публікацій."
+
+#: E:\www\wordpress\wp-content\themes\matisse/footer.php:31
+msgid "Theme design by"
+msgstr "Theme design by"
+
+#: E:\www\wordpress\wp-content\themes\matisse/functions.php:24
+msgid "Primary Navigation"
+msgstr "Первинна Навігація"
+
+#: E:\www\wordpress\wp-content\themes\matisse/functions.php:30
+msgid "Matisse"
+msgstr "Матісс"
+
+#: E:\www\wordpress\wp-content\themes\matisse/functions.php:35
+msgid "Matisse 2"
+msgstr "Матісс 2"
+
+#: E:\www\wordpress\wp-content\themes\matisse/functions.php:40
+msgid "Matisse 3"
+msgstr "Матісс 3"
+
+#: E:\www\wordpress\wp-content\themes\matisse/functions.php:67
+msgid "Sidebar Widget Area"
+msgstr "Площа бічної панелі віджету"
+
+#: E:\www\wordpress\wp-content\themes\matisse/functions.php:69
+msgid "The sidebar widget area"
+msgstr "Площа бічної панелі віджету, ліва сторона "
+
+#: E:\www\wordpress\wp-content\themes\matisse/functions.php:77
+#: E:\www\wordpress\wp-content\themes\matisse/functions.php:87
+msgid "Footer Widget Area"
+msgstr "Footer Віджет Площа"
+
+#: E:\www\wordpress\wp-content\themes\matisse/functions.php:79
+msgid "The first footer widget area"
+msgstr "Перша область колонтитула віджету"
+
+#: E:\www\wordpress\wp-content\themes\matisse/functions.php:89
+msgid "The second footer widget area"
+msgstr "Друга область колонтитула віджету"
+
+#: E:\www\wordpress\wp-content\themes\matisse/functions.php:158
+msgid "MENU"
+msgstr "MENU"
+
+#: E:\www\wordpress\wp-content\themes\matisse/functions.php:200
+#, php-format
+msgid ""
+"<p> Posted on %4$s by <span class=\"author vcard\"><a class=\"url fn n\" "
+"href=\"%5$s\" title=\"%6$s\" rel=\"author\">%7$s </a></span> </p>"
+msgstr ""
+"<p> опубліковано %4$s <span class=\"Автор vcard\"><a class=\"url fn n\" href="
+"\"%5$s\" title=\"%6$s\" rel=\"Автор\">%7$s </a></span> </p>"
+
+#: E:\www\wordpress\wp-content\themes\matisse/functions.php:202
+#, php-format
+msgid ""
+"<p> Posted on <a href=\"%1$s\" title=\"%2$s\" rel=\"bookmark\"><time "
+"datetime=\"%3$s\">%4$s</time></a> by <span class=\"author vcard\"><a class="
+"\"url fn n\" href=\"%5$s\" title=\"%6$s\" rel=\"author\">%7$s </a></span> </"
+"p>"
+msgstr ""
+"<p> опублікований на <a href=\"%1$s\" title=\"%2$s\" rel=\"закладки\"><time "
+"datetime=\"%3$s\">%4$s</час></a> <span class=\"Автор vcard\"><a class=\"url "
+"fn n\" href=\"%5$s\" title=\"%6$s\" rel=\"Автор\">%7$s </a></span> </p>"
+
+#: E:\www\wordpress\wp-content\themes\matisse/functions.php:218
+#: E:\www\wordpress\wp-content\themes\matisse/functions.php:219
+msgid ", "
+msgstr ", "
+
+#: E:\www\wordpress\wp-content\themes\matisse/functions.php:221
+#, php-format
+msgid "<p>This entry was posted in %1$s and tagged %2$s.</p>"
+msgstr "<p> Ця запис була опублікована в %1$s та зазначених %2$s. </p>"
+
+#: E:\www\wordpress\wp-content\themes\matisse/functions.php:224
+#, php-format
+msgid "<p>This entry was posted in %1$s.</p>"
+msgstr "<p> Ця запис була опублікована в %1$s. </p>"
+
+#: E:\www\wordpress\wp-content\themes\matisse/functions.php:345
+msgid "&laquo; Previous"
+msgstr "&larr; Попередня "
+
+#: E:\www\wordpress\wp-content\themes\matisse/functions.php:346
+msgid "Next &raquo;"
+msgstr "Наступна &rarr; "
+
+#: E:\www\wordpress\wp-content\themes\matisse/functions.php:380
+#, php-format
+msgid "Page %s"
+msgstr "Сторінка %s"
+
+#: E:\www\wordpress\wp-content\themes\matisse/image.php:13
+msgid "&larr; Previous"
+msgstr "&larr; Попередня"
+
+#: E:\www\wordpress\wp-content\themes\matisse/image.php:16
+msgid "Next &rarr;"
+msgstr "Наступна &rarr;"
+
+#: E:\www\wordpress\wp-content\themes\matisse/image.php:27
+#, php-format
+msgid ""
+"<p>Published <time datetime=\"%1$s\">%2$s</time> in <a href=\"%3$s\" title="
+"\"Return to %4$s\" rel=\"gallery\">%5$s</a>.</p>"
+msgstr ""
+"<p>Published <time datetime=\"%1$s\">%2$s</time> in <a href=\"%3$s\" title="
+"\"Return to %4$s\" rel=\"gallery\">%5$s</a>.</p>"
+
+#: E:\www\wordpress\wp-content\themes\matisse/image.php:72
+#, php-format
+msgid "<li>Title: %s </li>"
+msgstr "<li> Назва: %s </li>"
+
+#: E:\www\wordpress\wp-content\themes\matisse/image.php:74
+#, php-format
+msgid "<li>Caption: %s </li>"
+msgstr "<li> Напис: %s </li>"
+
+#: E:\www\wordpress\wp-content\themes\matisse/image.php:76
+#, php-format
+msgid "<li>Copyright: %s </li>"
+msgstr "<li> Авторські права: %s </li>"
+
+#: E:\www\wordpress\wp-content\themes\matisse/image.php:78
+#, php-format
+msgid "<li>Credit: %s </li>"
+msgstr "<li> Кредит: %s </li>"
+
+#: E:\www\wordpress\wp-content\themes\matisse/image.php:80
+#, php-format
+msgid "<li>Camera: %s </li>"
+msgstr "<li> Камера: %s </li>"
+
+#: E:\www\wordpress\wp-content\themes\matisse/image.php:82
+#, php-format
+msgid "<li>Aperture: %s </li>"
+msgstr "<li> Діафрагма: %s </li>"
+
+#: E:\www\wordpress\wp-content\themes\matisse/image.php:84
+#, php-format
+msgid "<li>Focal Length: %s </li>"
+msgstr "<li> Фокусна відстань: %s </li>"
+
+#: E:\www\wordpress\wp-content\themes\matisse/image.php:86
+#, php-format
+msgid "<li>ISO: %s </li>"
+msgstr "<li> ISO: %s </li>"
+
+#: E:\www\wordpress\wp-content\themes\matisse/image.php:88
+#, php-format
+msgid "<li>Shutter Speed: %s s.</li>"
+msgstr "<li> Швидкість затвора: %s с. </li>"
+
+#: E:\www\wordpress\wp-content\themes\matisse/image.php:90
+#, php-format
+msgid "<li>Full size is %s pixels</li>"
+msgstr "<li> Повний розмір %s пікселів </li>"
+
+#: E:\www\wordpress\wp-content\themes\matisse/image.php:90
+msgid "Link to full-size image"
+msgstr "Посилання на повнорозмірне зображення"
+
+#: E:\www\wordpress\wp-content\themes\matisse/image.php:93
+msgid "Edit"
+msgstr "Редагувати"
+
+#: E:\www\wordpress\wp-content\themes\matisse/inc/customizer_register.php:12
+msgid "Link Color"
+msgstr "Колір посилання"
+
+#: E:\www\wordpress\wp-content\themes\matisse/inc/customizer_register.php:25
+msgid "Logo"
+msgstr "Логотип"
+
+#: E:\www\wordpress\wp-content\themes\matisse/inc/customizer_register.php:34
+msgid "Fonts"
+msgstr "Шрифти"
+
+#: E:\www\wordpress\wp-content\themes\matisse/inc/customizer_register.php:48
+msgid "Select Text Font:"
+msgstr "Виберіть шрифт тексту:"
+
+#: E:\www\wordpress\wp-content\themes\matisse/inc/customizer_register.php:67
+msgid "Select Header Font:"
+msgstr "Виберіть Шрифт заголовка:"
+
+#: E:\www\wordpress\wp-content\themes\matisse/inc/customizer_register.php:104
+msgid "Add language:"
+msgstr "Додати мова:"
+
+#: E:\www\wordpress\wp-content\themes\matisse/loop-aside.php:3
+#: E:\www\wordpress\wp-content\themes\matisse/loop-link.php:7
+#: E:\www\wordpress\wp-content\themes\matisse/loop-quote.php:3
+#: E:\www\wordpress\wp-content\themes\matisse/loop-search.php:7
+#: E:\www\wordpress\wp-content\themes\matisse/loop-status.php:8
+#: E:\www\wordpress\wp-content\themes\matisse/loop.php:19
+#: E:\www\wordpress\wp-content\themes\matisse/page.php:20
+#: E:\www\wordpress\wp-content\themes\matisse/sidebar-page.php:19
+#: E:\www\wordpress\wp-content\themes\matisse/slide-posts-masonry-page.php:88
+#: E:\www\wordpress\wp-content\themes\matisse/slide-posts-masonry-page.php:90
+msgid "<span class=\"link_more\">Continue reading &rarr;</span>"
+msgstr "<span class=\"link_more\">Читати далі &rarr;</span>"
+
+#: E:\www\wordpress\wp-content\themes\matisse/loop-aside.php:12
+#: E:\www\wordpress\wp-content\themes\matisse/loop-link.php:9
+#: E:\www\wordpress\wp-content\themes\matisse/loop-quote.php:7
+#: E:\www\wordpress\wp-content\themes\matisse/loop-status.php:18
+#: E:\www\wordpress\wp-content\themes\matisse/loop.php:24
+#: E:\www\wordpress\wp-content\themes\matisse/page.php:23
+#: E:\www\wordpress\wp-content\themes\matisse/sidebar-page.php:21
+#: E:\www\wordpress\wp-content\themes\matisse/slide-posts-masonry-page.php:100
+msgid "Edit This"
+msgstr "Редагувати Це"
+
+#: E:\www\wordpress\wp-content\themes\matisse/loop-none.php:3
+msgid "Nothing Found"
+msgstr "Нічого не знайдено"
+
+#: E:\www\wordpress\wp-content\themes\matisse/loop-none.php:6
+msgid ""
+"Sorry, but nothing matched your search criteria. Please try again with some "
+"different keywords."
+msgstr ""
+"Вибачте, але нічого не відповідають критеріям пошуку. Будь ласка, спробуйте "
+"ще раз з деякими різних ключових слів."
+
+#: E:\www\wordpress\wp-content\themes\matisse/loop-search.php:3
+#: E:\www\wordpress\wp-content\themes\matisse/loop.php:6
+#: E:\www\wordpress\wp-content\themes\matisse/slide-page.php:37
+#: E:\www\wordpress\wp-content\themes\matisse/slide-page.php:42
+#: E:\www\wordpress\wp-content\themes\matisse/slide-posts-masonry-page.php:35
+#: E:\www\wordpress\wp-content\themes\matisse/slide-posts-masonry-page.php:40
+#: E:\www\wordpress\wp-content\themes\matisse/slide-posts-masonry-page.php:77
+#: E:\www\wordpress\wp-content\themes\matisse/slide-posts-masonry-page.php:94
+#: E:\www\wordpress\wp-content\themes\matisse/slide-posts-page.php:35
+#: E:\www\wordpress\wp-content\themes\matisse/slide-posts-page.php:40
+#, php-format
+msgid "Permanent Link to %s"
+msgstr "Постійне посилання на %s"
+
+#: E:\www\wordpress\wp-content\themes\matisse/search.php:8
+#, php-format
+msgid "Search Results for: %s"
+msgstr "Результати пошуку по: %s"
+
+#: E:\www\wordpress\wp-content\themes\matisse/slide-posts-masonry-page.php:112
+msgid "View all posts"
+msgstr "View all posts"
+
+#: E:\www\wordpress\wp-content\themes\matisse/slide-posts-masonry-page.php:112
+msgid "View all"
+msgstr ""
+
+#~ msgid "Categotry Archives: <span>%s</span>"
+#~ msgstr "Categotry Архіви: <span>%s</span>"
+
+#~ msgid "Matisse 4"
+#~ msgstr "Матісс 4"
+
+#~ msgid "Customize"
+#~ msgstr "Налаштувати"
+
+#~ msgid "Post Format options"
+#~ msgstr "Розмістити Опції форматування"
+
+#~ msgid "Matisse page options"
+#~ msgstr "Варіанти Матісс сторінка"
+
+#~ msgid "Featured"
+#~ msgstr "Показаний"
+
+#~ msgid "This is a featured post"
+#~ msgstr "Це ознаками повідомлення"
+
+#~ msgid ""
+#~ "Check this to feature the post in the highlights section on the homepage."
+#~ msgstr ""
+#~ "Перевірте це, щоб показати свій пост в розділі висвітлюються на головній "
+#~ "сторінці."
+
+#~ msgid "Post format - Link"
+#~ msgstr "Повідомлення формат - Посилання"
+
+#~ msgid "Paste link"
+#~ msgstr "Вставити посилання"
+
+#~ msgid "Post format - Quote - Author"
+#~ msgstr "Формат Повідомлення - Цитата - Автор"
+
+#~ msgid ""
+#~ "If you choose the format of the post - quotation - and you want to add "
+#~ "the author you must write his name."
+#~ msgstr ""
+#~ "Якщо ви вибираєте формат пост - цитата - і ви хочете додати автору "
+#~ "необхідно написати своє ім&#39;я."
+
+#~ msgid "Post format - Quote - Link"
+#~ msgstr "Повідомлення формат - Цитата - Посилання"
+
+#~ msgid ""
+#~ "Past the link into the source of quotation. The author of the quotation "
+#~ "will be the link to the source, to make the link available fill in \\"
+#~ "\"the Author quotation\\\" field."
+#~ msgstr ""
+#~ "Повз посилання на джерело цитування. Автор пропозиції будуть посилання на "
+#~ "джерело, щоб зробити посилання, заповніть \\\"Автор цитати\\\" поле."
+
+#~ msgid "%s"
+#~ msgstr "%s"
+
+#~ msgid "Response to <strong>%1$s</strong>"
+#~ msgstr "Відповідь на <strong>%1$s</strong>"
+
+#~ msgid "The sidebar widget area, full width"
+#~ msgstr "Площа віджету бічної панелі, повна ширина"
+
+#~ msgid "The sidebar widget area, right side"
+#~ msgstr "Площа бічної панелі віджету, права сторона"
+
+#~ msgid "Image {current} of {total}"
+#~ msgstr "Зображення {current} із {total}"
+
+#~ msgid "Previous"
+#~ msgstr "Попередній"
+
+#~ msgid "Next"
+#~ msgstr "Наступний"
+
+#~ msgid "Pingback:"
+#~ msgstr "Pingback:"
+
+#~ msgid "(Edit)"
+#~ msgstr "(Змінити)"
+
+#~ msgid "Post author"
+#~ msgstr "Повідомлення автор"
+
+#~ msgid "%1$s at %2$s"
+#~ msgstr "%1$s у %2$s"
+
+#~ msgid "Reply <span>&darr;</span>"
+#~ msgstr "Відповісти <span>&darr;</span>"
+
+#~ msgid "Your comment is awaiting moderation."
+#~ msgstr "Ваш коментар очікує модерації."
+
+#~ msgid "Gallery"
+#~ msgstr "Галерея"
+
+#~ msgid "Select Lightbox Theme:"
+#~ msgstr "Виберіть Лайтбокс Стиль:"
+
+#~ msgid "Name:"
+#~ msgstr "Ім&#39;я:"
+
+#~ msgid "Link to your image(80x80px):"
+#~ msgstr "Посилання на зображенні (80x80px):"
+
+#~ msgid "Description:"
+#~ msgstr "Опис:"
+
+#~ msgid "Title:"
+#~ msgstr "Назва:"
+
+#~ msgid "\"Flickr\"- ID. <a href=\"%s\" target=\"_blank\">idgettr.com</a>"
+#~ msgstr "\"Flickr\"- ID. <a href=\"%s\" target=\"_blank\">idgettr.com</a>"
+
+#~ msgid "http://idgettr.com/"
+#~ msgstr "http://idgettr.com/"
+
+#~ msgid "Number of photo to display:"
+#~ msgstr "Кількість фото переглядів:"
